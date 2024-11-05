@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
 import { useNavigate } from 'react-router-dom';
+import jobsData from '../data/jobs.json'; // Import local jobs.json
 import '../styles/TrendingJobs.css'; // Adjust the path as needed
 
 const TrendingJobs = () => {
@@ -10,35 +11,26 @@ const TrendingJobs = () => {
   const [error, setError] = useState(null);
   const navigate = useNavigate();
 
-  // Function to fetch jobs data
-  const fetchJobs = async () => {
-    const timestamp = Date.now();
-    const url = `https://raw.githubusercontent.com/Reestart-sai/job-listings/main/src/data/jobs.json?t=${timestamp}`;
-
+  // Function to process and cache jobs data
+  const processJobsData = () => {
     try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      const data = await response.json();
-
       // Process the fetched jobs data
-      const privateJobs = data
+      const privateJobs = jobsData
         .filter((job) => job.category === 'Private Job')
         .sort((a, b) => new Date(b.postDate) - new Date(a.postDate))
         .slice(0, 3); // Get top 3 private jobs
 
-      const governmentJobs = data
+      const governmentJobs = jobsData
         .filter((job) => job.category === 'Government Job')
         .sort((a, b) => new Date(b.postDate) - new Date(a.postDate))
         .slice(0, 3); // Get top 3 government jobs
 
-      const internships = data
+      const internships = jobsData
         .filter((job) => job.category === 'Internship')
         .sort((a, b) => new Date(b.postDate) - new Date(a.postDate))
         .slice(0, 3); // Get top 3 internships
 
-      const abroadJobs = data
+      const abroadJobs = jobsData
         .filter((job) => job.category === 'Abroad Job')
         .sort((a, b) => new Date(b.postDate) - new Date(a.postDate))
         .slice(0, 3); // Get top 3 abroad jobs
@@ -49,7 +41,7 @@ const TrendingJobs = () => {
       localStorage.setItem('trendingJobs', JSON.stringify(combinedJobs));
       setTrendingJobs(combinedJobs);
     } catch (error) {
-      console.error('Error fetching jobs:', error);
+      console.error('Error processing jobs data:', error);
       setError(error);
     } finally {
       setIsLoading(false);
@@ -67,8 +59,8 @@ const TrendingJobs = () => {
 
   useEffect(() => {
     getCachedJobs(); // Check for cached jobs on component mount
-    fetchJobs(); // Fetch jobs data from the API
-  }, []);
+    processJobsData(); // Process jobs data from the local file
+  }, []); // Empty dependency array means this runs once on mount
 
   // Slider settings
   const settings = {
