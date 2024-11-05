@@ -31,7 +31,7 @@ const Header = ({ onSearch }) => {
       {/* Logo */}
       <div className="logo">
         <Link to="/">
-          <img src="https://raw.githubusercontent.com/varrisaikumar/reestarts-images/main/logo.png" alt="Reestart Logo" />
+          <img src="/images/logo.png" alt="Reestart Logo" />
         </Link>
       </div>
 
