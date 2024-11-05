@@ -1,20 +1,32 @@
 // src/components/HomePage.js
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import TrendingJobs from './TrendingJobs';
 import PrivateJobsList from './PrivateJobsList';
 import GovernmentJobsList from './GovernmentJobsList';
 import InternshipsList from './InternshipsList';
 import AbroadJobsList from './AbroadJobsList';
-import '../styles/HomePage.css'; // Ensure this path is correct 
+import jobsData from '../data/jobs.json'; // Import local jobs.json
+import '../styles/HomePage.css'; // Ensure this path is correct
 
-const HomePage = ({ jobs }) => {
-  if (!jobs || jobs.length === 0) {
+const HomePage = () => {
+  const [jobs, setJobs] = useState(jobsData); // Initialize with local jobs data
+
+  useEffect(() => {
+    // Check if jobs are cached in local storage
+    const cachedJobs = localStorage.getItem('allJobs');
+    if (cachedJobs) {
+      setJobs(JSON.parse(cachedJobs));
+    } else {
+      localStorage.setItem('allJobs', JSON.stringify(jobsData)); // Cache the jobs in local storage
+    }
+  }, []); // Runs once on component mount
+
+  if (jobs.length === 0) {
     return <div>No jobs available at the moment.</div>; // Handle no jobs scenario
   }
 
   return (
     <div className="homepage">
-      
       <TrendingJobs />
       <PrivateJobsList jobs={jobs} />
       <GovernmentJobsList jobs={jobs} />
