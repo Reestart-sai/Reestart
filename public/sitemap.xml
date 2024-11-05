@@ -1,0 +1,53 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+      <loc>https://reestarts.in/</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+  </url>
+
+  <!-- Job Listing Pages -->
+  <url>
+      <loc>https://reestarts.in/all-private-jobs</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+  </url>
+  <url>
+      <loc>https://reestarts.in/all-government-jobs</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+  </url>
+  <url>
+      <loc>https://reestarts.in/all-internships</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+  </url>
+  <url>
+      <loc>https://reestarts.in/all-abroad-jobs</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us and About Us Pages -->
+  <url>
+      <loc>https://reestarts.in/contact-us</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+  <url>
+      <loc>https://reestarts.in/about-us</loc>
+      <lastmod>2024-10-27</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+  </url>
+
+  <!-- Placeholder for Dynamic Job Details URLs -->
+  <!-- Example: https://reestarts.in/job-details/1 -->
+  <!-- For each job, you might generate a URL like this -->
+</urlset>

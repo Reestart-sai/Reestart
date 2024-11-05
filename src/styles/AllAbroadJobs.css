@@ -1,0 +1,152 @@
+/* src/styles/AllAbroadJobs.css */
+
+.all-abroad-jobs-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f5; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Heading */
+.all-abroad-jobs-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the heading */
+}
+
+/* Job Card List */
+.job-card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* Space between job cards */
+}
+
+/* Job Card Styling */
+.job-card {
+    background-color: #ffffff; /* White background for job cards */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transition effect */
+}
+
+.job-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.job-card h3 {
+    font-size: 1.6em; /* Slightly larger title */
+    margin: 10px;
+    color: #007bff; /* Blue color for job titles */
+}
+
+.job-card p {
+    margin: 10px;
+    color: #666; /* Slightly muted text color */
+}
+
+/* Pagination Controls */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Animation effects */
+}
+
+.pagination button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+.pagination button:disabled {
+    background-color: #cccccc; /* Gray background for disabled buttons */
+    cursor: not-allowed; /* Not-allowed cursor style */
+}
+
+/* See More / Back to Home Link */
+.back-to-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #28a745; /* Success button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.back-to-home:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .all-abroad-jobs-section {
+        padding: 15px;
+    }
+
+    .pagination button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .all-abroad-jobs-section h2 {
+        font-size: 2.2em; /* Smaller heading on mobile */
+    }
+
+    .job-card {
+        padding: 12px; /* Less padding on mobile */
+    }
+
+    .job-card h3 {
+        font-size: 1.4em; /* Smaller title on mobile */
+    }
+
+    .job-card p {
+        font-size: 0.9rem; /* Smaller description on mobile */
+    }
+}
+
+@media (max-width: 420px) {
+    .all-abroad-jobs-section {
+        padding: 15px;
+    }
+
+    .pagination button {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
+    .all-abroad-jobs-section h2 {
+        font-size: 2.2em; /* Smaller heading on mobile */
+    }
+
+    .job-card {
+        padding: 12px; /* Less padding on mobile */
+    }
+
+    .job-card h3 {
+        font-size: 1.4em; /* Smaller title on mobile */
+    }
+
+    .job-card p {
+        font-size: 0.9rem; /* Smaller description on mobile */
+    }
+}

@@ -1,0 +1,101 @@
+
+/* Contact Us Styles */
+.contact-us {
+    background: #ffffff;
+    padding: 40px; /* Increased padding for better spacing */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 50px auto; /* Increased margin for better visibility */
+    margin-bottom: 160px;
+    max-width: 900px; /* Slightly larger max-width for better layout */
+    transition: transform 0.3s;
+}
+
+.contact-us:hover {
+    transform: translateY(-2px);
+}
+
+.contact-us h1, .contact-us h2 {
+    color: #007bff; /* Primary color */
+    border-bottom: 2px solid #007bff; /* Underline effect */
+    padding-bottom: 10px;
+    margin-bottom: 20px; /* Added margin for separation */
+}
+
+.contact-us p {
+    line-height: 1.7; /* Increased line height for readability */
+    margin: 10px 0;
+    font-size: 16px; /* Slightly larger font size for better readability */
+}
+
+/* Request Section Styles */
+.request-section {
+    margin: 30px 0;
+}
+
+.request-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between form elements */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Space between each form group */
+}
+
+.request-section label {
+    font-weight: bold;
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.request-section input,
+.request-section textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+.request-section input:focus,
+.request-section textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.request-section button {
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    font-size: 16px; /* Larger button text */
+}
+
+.request-section button:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Reach Us Section */
+.reach-us {
+    margin-top: 40px; /* Increased margin for better visibility */
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.reach-us p {
+    margin: 10px 0; /* Margin for each paragraph */
+}
+
+.reach-us a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.reach-us a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}

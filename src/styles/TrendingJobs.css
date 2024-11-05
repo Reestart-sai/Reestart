@@ -1,0 +1,249 @@
+/* Base styles */
+.trending-jobs {
+    padding: 30px;
+    background-color: #f0f4f8;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    overflow: hidden; /* Ensure no overflow on smaller screens */
+    max-width: 100%;
+}
+
+/* Headings */
+.trending-jobs h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #2c3e50;
+    letter-spacing: 1px;
+}
+
+/* Reset for box-model consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Slick button adjustments */
+button.slick-prev, button.slick-next {
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+button.slick-prev::before,
+button.slick-next::before {
+    font-family: 'slick';
+    font-size: 20px;
+    color: #555;
+    opacity: 0.75;
+}
+
+/* Adjust arrow positions to prevent overflow issues */
+button.slick-prev {
+    left: 10px;
+}
+button.slick-next {
+    right: 10px;
+}
+
+/* Job Card Styles */
+.job-card {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Company Image */
+.company-image {
+    width: 100px;
+    height: auto;
+    margin: auto;
+}
+
+/* Text Content */
+.job-card h4 {
+    margin: 10px 0;
+    font-size: 1.6rem;
+    color: #34495e;
+    font-weight: 500;
+    text-align: center;
+}
+
+.job-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #7f8c8d;
+    text-align: center;
+}
+
+/* View Details Button */
+.view-details {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+.view-details:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Slick Slide Styling */
+.slick-slide > div {
+    display: flex;
+    justify-content: center;
+}
+
+/* Responsive Styles */
+
+/* Large screens (up to 1440px) */
+@media (max-width: 1440px) {
+    .trending-jobs {
+        max-width: 1000px;
+    }
+    .job-card {
+        max-width: 350px;
+    }
+}
+
+/* Medium screens (up to 1024px) */
+@media (max-width: 1024px) {
+    .trending-jobs {
+        padding: 25px;
+    }
+    .job-card {
+        max-width: 300px;
+    }
+    .trending-jobs h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media (max-width: 768px) {
+    .trending-jobs {
+        padding: 20px;
+    }
+    .job-card {
+        padding: 15px;
+    }
+    .job-card h4 {
+        font-size: 1.3rem;
+    }
+    .view-details {
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 320px) {
+    .trending-jobs {
+        padding: 15px 15px 35px 15px;
+        overflow-x: hidden;
+    }
+    ul.slick-dots {
+        position: static;
+        bottom: -5px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+}
+@media (max-width: 360px) {
+    ul.slick-dots {
+        position: static;
+        bottom: -25px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+
+}
+
+
+/* Small devices (up to 480px) */
+@media (max-width: 480px) {
+    .trending-jobs {
+        padding: 15px 15px 15px 15px;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+    }
+
+    button.slick-prev {
+        left: 5px;
+    }
+    button.slick-next {
+        right: 5px;
+    }
+
+    .job-card {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .company-image {
+        width: 80px;
+    }
+
+    .job-card h4 {
+        font-size: 1.2rem;
+    }
+    .job-card p {
+        font-size: 0.85rem;
+    }
+    .view-details {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+    .slick-dots {
+        position: relative;
+        bottom: -5px;
+        display: block;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+}
+
+/* Extra-small devices (up to 320px) */
+@media (max-width: 320px) {
+    .trending-jobs h2 {
+        font-size: 1.8rem;
+    }
+    .job-card h4 {
+        font-size: 1rem;
+    }
+    .view-details {
+        font-size: 0.8rem;
+        padding: 5px 10px;
+    }
+}

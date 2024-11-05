@@ -1,0 +1,165 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  
+}
+
+
+
+.search-bar input {
+  padding: 8px;
+  width: 300px;
+  margin-right: 8px;
+}
+
+.search-bar button {
+  padding: 8px;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+  
+}
+
+.job-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s;
+
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+}
+
+.trending-section {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+/* Header.css */
+
+
+
+
+
+
+
+
+
+
+
+
+/* TrendingSection.css */
+.trending-section {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.trending-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.trending-card:hover {
+  background-color: #f0f0f0;
+}
+
+.trending-card img {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+/* FilterButtons.css */
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.filter-buttons button {
+  margin: 0 5px;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.filter-buttons button:hover {
+  background-color: #555;
+}
+
+
+/* JobsSection.css */
+.jobs-section {
+  padding: 20px;
+}
+
+.jobs-section h2 {
+  margin-bottom: 15px;
+}
+
+.jobs-section .job-card {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 320px) {
+  .job-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+  
+  }
+}
+

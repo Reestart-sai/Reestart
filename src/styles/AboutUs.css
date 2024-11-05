@@ -1,0 +1,23 @@
+/* About Us Styles */
+.about-us {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    transition: transform 0.3s;
+}
+
+.about-us:hover {
+    transform: translateY(-2px);
+}
+
+.about-us h1, .about-us h2 {
+    color: #007bff; /* Primary color */
+}
+
+.about-us p {
+    line-height: 1.6;
+    margin: 10px 0;
+}

@@ -1,0 +1,128 @@
+/* Base Footer Styles */
+.footer {
+    background: #1e1e1e; /* Darker, elegant background */
+    color: #f0f0f0;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow at top */
+}
+
+/* Footer Text */
+.footer p {
+    margin: 10px 0;
+    font-size: 15px;
+    color: #b0b0b0; /* Lighter text for secondary content */
+}
+
+/* Footer Links */
+.footer-links {
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: #ffffff; /* Subtle blue accent */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.footer-links a:hover {
+    color: #66d9ff;
+    text-shadow: 0 0 5px #66d9ff; /* Glow effect on hover */
+}
+
+/* Social Media Links */
+.social-media-links {
+    margin-top: 20px;
+}
+
+.social-media-links a {
+    color: #00aaff;
+    margin: 0 10px;
+    font-size: 30px; /* Icon size for large screens */
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-media-links a:hover {
+    transform: scale(1.15); /* Smooth zoom on hover */
+    color: #66d9ff;
+}
+
+/* Active NavLink Styling */
+.active-link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Responsive Styles */
+
+/* Small devices (320px - 480px) */
+@media (max-width: 480px) {
+    .footer {
+        padding: 30px 15px;
+    }
+
+    .footer-links {
+        margin: 20px 0;
+    }
+
+    .footer-links a {
+        display: block; /* Stack links vertically */
+        margin: 10px 0;
+    }
+
+    .social-media-links a {
+        font-size: 26px; /* Smaller icons for smaller screens */
+        margin: 0 8px;
+    }
+}
+
+/* Medium devices (481px - 768px) */
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer-links a {
+        margin: 0 12px;
+    }
+
+    .social-media-links a {
+        font-size: 28px;
+    }
+}
+
+/* Large devices (769px - 1024px) */
+@media (max-width: 1024px) {
+    .footer {
+        padding: 35px 25px;
+    }
+
+    .social-media-links a {
+        margin: 0 12px;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+    }
+}
+
+/* Extra Large devices (1025px - 1440px) */
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .footer {
+        padding: 40px 30px;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+        margin: 0 18px;
+    }
+
+    .social-media-links a {
+        font-size: 32px; /* Larger icons for bigger screens */
+    }
+}
