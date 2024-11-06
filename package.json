@@ -29,6 +29,7 @@
     "react-scripts": "5.0.1",
     "react-sitemap-generator": "^1.1.6",
     "react-slick": "^0.30.2",
+    "sitemap": "^8.0.0",
     "slick-carousel": "^1.8.1",
     "uuid": "^11.0.2",
     "web-vitals": "^2.1.4"
@@ -36,7 +37,7 @@
   "scripts": {
     "start": "react-scripts start",
     "generate-sitemap": "node generate-sitemap.js",
-    "build": "npm run generate-sitemap && react-scripts build"
+    "build": "npm run generate-sitemap && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -65,9 +66,8 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "react-app-rewired": "^2.2.1"
+    "react-app-rewired": "^2.2.1",
+    "sitemap-generator-cli": "^7.5.0"
   },
   "proxy": "https://reestarts.s3.eu-north-1.amazonaws.com"
-  
-
 }
