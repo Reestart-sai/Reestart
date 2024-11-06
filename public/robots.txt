@@ -1,5 +1,3 @@
 User-agent: *
 Disallow: /admin
-Allow:/
-Sitemap: https://reestart.in/sitemap.xml
-Sitemap: https://www.reestart.in/sitemap.xml
+Sitemap: https://reestarts.in/sitemap.xml
