@@ -36,7 +36,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    
     "generate-sitemap": "node generate-sitemap.js", 
     "build": "react-scripts build",
     "test": "react-scripts test",
