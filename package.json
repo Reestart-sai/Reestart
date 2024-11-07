@@ -36,7 +36,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "npm run generate-sitemap",
     "generate-sitemap": "node generate-sitemap.js",
     "build": "npm run generate-sitemap && react-scripts build",
     "test": "react-scripts test",
