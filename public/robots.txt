@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: /job-details/
-Allow: /admin
-Allow: /about-us
-Allow: /contact-us
+Disallow: /admin
+Allow: /
+
 Sitemap: https://www.reestarts.in/sitemap.xml
