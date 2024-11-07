@@ -1,11 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
-// Use fs to read the JSON file synchronously
+// Read the jobs data from the file
 const jobsData = JSON.parse(fs.readFileSync('./src/data/jobs.json', 'utf-8'));
 
-// Define your base routes, along with dynamic routes from the jobs data
-const routes = [
+// Define static routes
+const staticRoutes = [
   '/',
   '/all-government-jobs',
   '/all-internships',
@@ -13,8 +13,13 @@ const routes = [
   '/all-abroad-jobs',
   '/contact-us',
   '/about-us',
-  ...jobsData.map(job => `/job-details/${job.id}`) // Dynamic job routes
 ];
+
+// Generate dynamic routes from the jobs data
+const dynamicRoutes = jobsData.map(job => `/job-details/${job.id}`);
+
+// Combine static and dynamic routes
+const routes = [...staticRoutes, ...dynamicRoutes];
 
 // Function to generate the sitemap
 const generateSitemap = () => {
@@ -33,10 +38,14 @@ const generateSitemap = () => {
         .join('')}
     </urlset>`;
 
-    // Ensure the 'public' directory exists
-    const sitemapPath = path.resolve('public', 'sitemap.xml');
+    // Ensure the 'public' directory exists, or create it
+    const publicDir = path.resolve('public');
+    if (!fs.existsSync(publicDir)) {
+      fs.mkdirSync(publicDir, { recursive: true });
+    }
 
-    // Write the sitemap content to the file
+    // Write the sitemap content to the 'public/sitemap.xml' file
+    const sitemapPath = path.resolve(publicDir, 'sitemap.xml');
     fs.writeFileSync(sitemapPath, sitemapContent, 'utf8');
     console.log('Sitemap generated successfully!');
   } catch (error) {
