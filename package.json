@@ -36,8 +36,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "generate-sitemap": "node generate-sitemap.js",
-    
+    "prebuild": "npm run generate-sitemap", // Runs before build
+    "generate-sitemap": "node generate-sitemap.js", 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -60,7 +60,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This project was bootstrapped with Create React App.",
   "main": "index.js",
   "keywords": [],
   "author": "",
