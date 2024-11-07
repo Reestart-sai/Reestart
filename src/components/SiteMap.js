@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const SiteMap = () => {
   useEffect(() => {
-    window.location.href = 'https://www.reestarts.in/';
+    window.location.href = '/sitemap.xml';
   }, []);
   
   return null;
