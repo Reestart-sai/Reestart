@@ -3,3 +3,4 @@ Disallow: /admin
 Allow: /
 
 Sitemap: https://www.reestarts.in/sitemap.xml
+Sitemap: https://reestarts.in/sitemap.xml
