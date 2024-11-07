@@ -1,5 +1,5 @@
-// src/components/HomePage.js
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import TrendingJobs from './TrendingJobs';
 import PrivateJobsList from './PrivateJobsList';
 import GovernmentJobsList from './GovernmentJobsList';
@@ -26,13 +26,19 @@ const HomePage = () => {
   }
 
   return (
-    <div className="homepage">
-      <TrendingJobs />
-      <PrivateJobsList jobs={jobs} />
-      <GovernmentJobsList jobs={jobs} />
-      <InternshipsList jobs={jobs} />
-      <AbroadJobsList jobs={jobs} />
-    </div>
+    <>
+      <Helmet>
+        <title>Reestart - Find Your Dream Job</title>
+        <meta name="description" content="Discover the latest job listings on Reestart, including private jobs, government jobs, internships, and abroad opportunities." />
+      </Helmet>
+      <div className="homepage">
+        <TrendingJobs />
+        <PrivateJobsList jobs={jobs} />
+        <GovernmentJobsList jobs={jobs} />
+        <InternshipsList jobs={jobs} />
+        <AbroadJobsList jobs={jobs} />
+      </div>
+    </>
   );
 };
 
