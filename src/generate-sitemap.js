@@ -1,22 +1,35 @@
-const { SitemapStream, streamToPromise } = require('sitemap');
-const { createWriteStream } = require('fs');
+const fs = require('fs');
 const path = require('path');
+const jobsData = require('./src/data/jobs.json'); // Load your job data
 
 const routes = [
-  { url: '/', changefreq: 'daily', priority: 1.0 },
-  { url: '/about-us', changefreq: 'monthly', priority: 0.5 },
-  { url: '/contact-us', changefreq: 'monthly', priority: 0.5 },
-  { url: '/all-private-jobs', changefreq: 'weekly', priority: 0.8 },
-  { url: '/all-government-jobs', changefreq: 'weekly', priority: 0.8 },
-  { url: '/all-internships', changefreq: 'weekly', priority: 0.8 },
-  { url: '/all-abroad-jobs', changefreq: 'weekly', priority: 0.8 },
+  '/',
+  '/all-government-jobs',
+  '/all-internships',
+  '/all-private-jobs',
+  '/all-abroad-jobs',
+  '/contact-us',
+  '/about-us',
+  ...jobsData.map(job => `/job-details/${job.id}`),
 ];
 
-const sitemap = new SitemapStream({ hostname: 'https://www.reestarts.in' });
+const generateSitemap = () => {
+  const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    ${routes
+      .map(
+        (route) => `
+      <url>
+        <loc>https://reestart.in${route}</loc>
+        <changefreq>daily</changefreq>
+      </url>
+    `
+      )
+      .join('')}
+  </urlset>`;
 
-routes.forEach(route => sitemap.write(route));
-sitemap.end();
+  fs.writeFileSync(path.resolve(__dirname, 'public', 'sitemap.xml'), sitemapContent, 'utf8');
+  console.log('Sitemap generated successfully!');
+};
 
-streamToPromise(sitemap).then((xml) => {
-  createWriteStream(path.join(__dirname, 'public', 'sitemap.xml')).write(xml);
-});
+generateSitemap();
