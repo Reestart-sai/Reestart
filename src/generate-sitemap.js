@@ -23,7 +23,7 @@ const generateSitemap = () => {
       .map(
         (route) => `
       <url>
-        <loc>https://reestart.in${route}</loc>
+        <loc>https://www.reestart.in${route}</loc>
         <changefreq>daily</changefreq> <!-- You can adjust this based on page content -->
       </url>
     `
