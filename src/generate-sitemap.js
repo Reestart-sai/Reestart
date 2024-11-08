@@ -30,7 +30,7 @@ const generateSitemap = () => {
         .map(
           (route) => `
         <url>
-          <loc>https://reestart.in${route}</loc>
+          <loc>https://reestarts.in${route}</loc>
           <changefreq>daily</changefreq>
         </url>
       `
