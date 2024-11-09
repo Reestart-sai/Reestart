@@ -104,6 +104,7 @@ button.slick-next::before {
 @media (max-width: 320px) {
   .job-card img {
     width: auto;
+    max-width: 120px;
     height: 100px;
     max-width: fit-content;
     object-fit: cover;
