@@ -13,33 +13,52 @@
     <meta name="robots" content="index, follow" />
     <meta name="author" content="Reestarts" />
 
+    <!-- Open Graph Meta Tags for Social Sharing -->
     <meta property="og:title" content="Reestarts - Career Guidance & Job Postings" />
     <meta property="og:description" content="Join Reestarts for career guidance, job postings, interview prep, and career growth through social media strategies." />
-    <meta property="og:url" content="https://www.reestarts.in" />
+    <meta property="og:url" content="https://reestarts.in" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.reestarts.in/images/logo.ico" />
+    <meta property="og:image" content="https://reestarts.in/images/logo.ico" />
+
+    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Reestarts | Career Guidance, Job Postings & Social Media Tips" />
     <meta name="twitter:description" content="Access job postings, career guidance, and social media tips for career growth on Reestarts." />
-    <meta name="twitter:image" content="https://www.reestarts.in/images/logo.png" />
+    <meta name="twitter:image" content="https://reestarts.in/images/logo.png" />
 
     <!-- Canonical Link -->
-    <link rel="canonical" href="https://www.reestarts.in" />
+    <link rel="canonical" href="https://reestarts.in" />
 
-    <!-- Structured Data for SEO -->
+    <!-- Structured Data for SEO (Organization) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Reestarts",
-        "url": "https://www.reestarts.in",
-        "logo": "https://www.reestarts.in/images/logo.png",
+        "url": ["https://reestarts.in", "https://www.reestarts.in"],
+        "logo": "https://reestarts.in/images/logo.png",
         "description": "Reestarts offers career guidance, job postings, interview preparation, and social media strategies to empower individuals on their career paths.",
         "sameAs": [
           "https://www.facebook.com/Reestarts",
           "https://twitter.com/Reestarts",
           "https://www.linkedin.com/company/reestarts"
         ]
+      }
+    </script>
+
+    <!-- Structured Data for SEO (WebSite) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Reestarts",
+        "alternateName": ["Reestarts.in", "Reestarts Career Guide"],
+        "url": ["https://reestarts.in", "https://www.reestarts.in"],
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://reestarts.in/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
 
