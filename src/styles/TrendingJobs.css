@@ -193,7 +193,7 @@ button.slick-next {
 /* Small devices (up to 480px) */
 @media (max-width: 480px) {
     .trending-jobs {
-        padding: 15px 15px 15px 15px;
+        padding: 15px 15px 40px 15px;
         overflow-x: hidden; /* Prevent horizontal scrolling */
     }
 
