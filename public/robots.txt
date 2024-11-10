@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /admin
+
 Allow: /
 
 Sitemap: https://reestarts.in/sitemap.xml
