@@ -29,9 +29,9 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Reestarts - Find Your Dream Job and Career Opportunities</title>
+        <title>Reestarts - Home Page</title>
         <meta name="description" content="Discover the latest job listings on Reestarts, including private jobs, government jobs, internships, and abroad opportunities." />
-        <meta name="keywords" content="Reestarts, career guidance, job postings, fresher jobs, study materials, interview preparation, career development, latest job updates, tech news, social media for career, job search, professional growth, personal branding" />
+        <meta name="keywords" content="Reestarts, reestarts, career guidance, job postings, fresher jobs, study materials, interview preparation, career development, latest job updates, tech news, social media for career, job search, professional growth, personal branding" />
       </Helmet>
       <div className="homepage">
         
