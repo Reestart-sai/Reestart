@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import jobsData from '../data/jobs.json'; // Import the JSON data
 import '../styles/JobDetails.css';
+import { Link } from 'react-router-dom';
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -40,9 +41,9 @@ const JobDetails = () => {
   return (
     <>
       <Helmet>
-        <title>{job.companyName} - {job.jobRole} | Restart</title>
+        <title>{job.companyName} - {job.jobRole} | Reestarts</title>
         <meta name="description" content={`Apply for ${job.jobRole} at ${job.companyName}.`} />
-        <meta name="keywords" content={`${job.companyName}, ${job.jobRole}, jobs, careers, Restart`} />
+        <meta name="keywords" content={`${job.companyName}, ${job.jobRole}, jobs, careers, Reestarts,reestarts,restarts,restart`} />
       </Helmet>
       <div className="job-details">
         <h2>{job.companyName}</h2>
@@ -73,6 +74,7 @@ const JobDetails = () => {
             <a href={job.telegramLink} target="_blank" rel="noopener noreferrer">Join Whatsapp for Latest Updates</a>
           </p>
         )}
+        <Link to="/" className="back-to-home">Back to Home</Link>
       </div>
     </>
   );
