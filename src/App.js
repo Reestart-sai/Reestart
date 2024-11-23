@@ -1,5 +1,5 @@
 // src/App.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,7 +12,6 @@ import AllPrivateJobs from './components/AllPrivateJobs';
 import AllGovernmentJobs from './components/AllGovernmentJobs';
 import AllInternships from './components/AllInternships';
 import AllAbroadJobs from './components/AllAbroadJobs';
-
 import SiteMap from './components/SiteMap';
 
 import './App.css';
@@ -28,8 +27,20 @@ const App = () => {
   const [jobs, setJobs] = React.useState([]);
   const [searchResults, setSearchResults] = React.useState([]);
 
+  // Override viewport meta tag to handle zooming and scaling properly
+  useEffect(() => {
+    const viewportMetaTag = document.querySelector('meta[name="viewport"]');
+    
+    if (viewportMetaTag) {
+      if (window.innerWidth <= 768) {
+        // Force desktop view on smaller devices (optional, use with caution)
+        viewportMetaTag.setAttribute('content', 'width=1024');
+      } 
+    }
+  }, []);
+
   // Load cached jobs data if available and not expired
-  React.useEffect(() => {
+  useEffect(() => {
     const cachedJobs = localStorage.getItem('cachedJobs');
     const cacheTimestamp = localStorage.getItem('cacheTimestamp');
     const isCacheValid =
