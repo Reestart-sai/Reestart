@@ -4,7 +4,7 @@ import JobCardList from './JobCardList';
 import { Link } from 'react-router-dom';
 import '../styles/InternshipsList.css';
 
-const CACHE_EXPIRATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_EXPIRATION = 10 * 60 * 1000; // 24 hours in milliseconds
 
 const sortJobsByDate = (jobs) => jobs.sort((a, b) => new Date(b.postDate) - new Date(a.postDate));
 
