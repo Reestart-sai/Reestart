@@ -23,8 +23,8 @@
 }
 
 .job-details p {
-  font-size: 20px;
-  color: #555;
+  font-size: 15px;
+  color: #000;
   margin: 10px 0;
 }
 
@@ -38,6 +38,7 @@
   list-style-type: disc;
   padding-left: 20px;
   margin: 10px 0;
+  font-size: 13px;
 }
 
 .job-details ul li {
@@ -52,4 +53,16 @@
 
 .job-details a:hover {
   text-decoration: underline;
+}
+
+a.back-to-home {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #28a745; /* Success button color */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
 }
