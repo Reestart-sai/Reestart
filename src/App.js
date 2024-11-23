@@ -20,7 +20,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import jobsData from './data/jobs.json';
 
-const CACHE_EXPIRATION_TIME = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_EXPIRATION_TIME = 10 * 60 * 1000; // 24 hours in milliseconds
 
 const App = () => {
   const navigate = useNavigate();
