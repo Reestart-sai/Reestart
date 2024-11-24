@@ -77,6 +77,37 @@ const JobDetails = () => {
             <p>No job description available.</p>
           )}
         </div>
+        {job.documents && (
+          <div>
+                <strong>Required Documents:</strong>
+              <ul>
+                {job.documents.map((document, index) => (
+                <li key={index}>{document}</li>
+                ))}
+              </ul>
+          </div>
+        )}
+
+        {job.importantDates && (
+          <div>
+              <strong>Important Dates:</strong>
+            <ul>
+                {job.importantDates.map((document, index) => (
+                <li key={index}>{document}</li>
+                ))}
+            </ul>
+          </div> 
+        )}
+        {job.applicationFee && (
+          <div>
+              <strong>Application Fee:</strong>
+              <ul>
+                {job.applicationFee.map((document, index) => (
+                <li key={index}>{document}</li>
+                ))}
+              </ul>
+          </div>   
+        )}
         <p>
           <a href={job.jobLink} target="_blank" rel="noopener noreferrer">Apply Here</a>
         </p>
