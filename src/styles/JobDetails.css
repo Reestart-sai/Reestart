@@ -1,8 +1,8 @@
 .job-details {
-  max-width: 800px;
+  max-width: 1000px;
   margin:  auto;
   margin-bottom: 200px;
-  padding: 50px;
+  padding: 25px;
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
