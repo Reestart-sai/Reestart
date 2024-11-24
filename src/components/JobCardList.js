@@ -37,6 +37,11 @@ const JobCardList = ({ jobs }) => {
           <h2>{job.companyName}</h2>
           <p>{job.jobRole}</p>
           <p>{job.experience}</p>
+          {job.vacancy && (
+           <p>
+              <strong>Job Vacancy:</strong> {job.vacancy}
+           </p>
+          )}
           <p>Posted on: {new Date(job.postDate).toLocaleDateString()}</p>
           <span className="view-details-link">View Details</span>
         </div>
