@@ -311,10 +311,12 @@
       "jobRole": "Civil Services",
       "postDate": "2024-10-10",
       "category": "Government Job",
+      "vacancy":"125",
       "experience": "Fresher",
       "qualification": "Graduate",
       "skills": "Critical Thinking, Aptitude",
       "description": "UPSC Civil Services Exam for various government positions.",
+      "notification": "https://drive.google.com/file/d/1NzL1RviHd3ZTUswndQm1hIIgAT0LoC7o/view",
       "applyLink": "https://upsc.gov.in"
     },
     {
