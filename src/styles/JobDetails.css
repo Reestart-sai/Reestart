@@ -66,3 +66,14 @@ a.back-to-home {
   text-align: center;
   transition: background-color 0.3s;
 }
+.job-details strong {
+  color: #000; /* Highlight color */
+  font-weight: bold;
+}
+
+.job-details .notification a {
+  color: #000; /* Notification link color */
+  font-weight: bold;
+  font-size: 15px;
+  text-decoration: underline;
+}
