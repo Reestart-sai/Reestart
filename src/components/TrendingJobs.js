@@ -94,6 +94,11 @@ const TrendingJobs = () => {
             <p>{job.experience}</p>
             <p>Posted on: {job.postDate}</p>
             <p>{job.qualification}</p>
+            {job.vacancy && (
+               <p>
+                  <strong>Job Vacancy:</strong> {job.vacancy}
+               </p>
+            )}
             <button 
               className="view-details" 
               onClick={() => handleViewDetails(job.id)}
