@@ -820,6 +820,75 @@
       ],
       "jobLink": "https://www.amazon.jobs",
       "telegramLink": "https://t.me/amazon-jobs"
+    },
+    {
+      "id": "51",
+      "companyImage": "/images/cboi.png",
+      "companyName": "Central Bank of India",
+      "jobRole": "Specialist Cadre Officers (IT)",
+      "vacancy": "253",
+      "postDate": "2024-11-18",
+      "category": "Government Job",
+      "experience": "2-8 years",
+      "qualification": "B.E. / B.Tech / MCA",
+      "skills": "UI/UX Design, Java, Mobile Development, COBOL, .NET, Cloud, Cybersecurity, Data Engineering",
+      "jobDescription": [
+        "Locations: Mumbai, Navi Mumbai, Hyderabad",
+        "Who We Are:",
+        "The Central Bank of India is recruiting Specialist Cadre Officers in IT and other streams across various grades to strengthen its digital and IT capabilities.",
+        "We are looking for talented professionals to contribute to innovative IT solutions in banking.",
+    
+        "What You'll Do:",
+        "Design and develop UI/UX for banking platforms.",
+        "Develop and maintain enterprise Java-based applications.",
+        "Enhance cybersecurity measures and ensure data protection.",
+        "Manage cloud infrastructure and database systems.",
+        "Collaborate with cross-functional teams to implement IT solutions.",
+    
+        "Key Job Roles by Scale:",
+        "- Chief Manager (Scale IV): Leadership in Data Architecture, Cloud Infrastructure, and Security.",
+        "- Senior Manager (Scale III): Manage IT projects and ensure implementation.",
+        "- Manager (Scale II): Develop and support IT systems.",
+        "- Assistant Manager (Scale I): Entry-level IT development and support tasks.",
+    
+        "Technical Skills:",
+        "- Programming: Java, COBOL, .NET, Python.",
+        "- Cloud: OpenShift, Red Hat Linux, Solaris.",
+        "- Databases: Oracle, MongoDB.",
+        "- Data Analysis: Data Engineering, Machine Learning, GenAI.",
+        "- Security: Cybersecurity, IT SOC Analysis.",
+        "- DevOps: DevSecOps, Production Support, Application Monitoring.",
+    
+        "Eligibility Criteria:",
+        "- Qualification: B.E. / B.Tech in Computer Science / IT / Electronics or MCA.",
+        "- Experience: 2-8 years depending on the grade.",
+    
+        "Central Bank of India IT Specialist Age Limit:",
+        "Scale | Age Limit | Experience",
+        "IV: Min 34 - Max 40 Years | Minimum 8 Years",
+        "III: Min 30 - Max 38 Years | Minimum 6 Years",
+        "II: Min 27 - Max 33 Years | Minimum 4 Years",
+        "I: Min 23 - Max 27 Years | Minimum 2 Years",
+    
+        "Central Bank of India IT Specialist Salary:",
+        "GRADE/SCALE | SCALE OF PAY | Approximate Annual CTC",
+        "Chief Manager (SCALE IV): Basic: 102300-2980/4-114220-3360/2-120940 | Rs. 35.27 lakhs",
+        "Senior Manager (SCALE III): Basic: 85920-2680/5-99320-2980/2-105280 | Rs. 29.17 lakhs",
+        "Manager (SCALE II): Basic: 64820-2340/1-67160-2680/10-93960 | Rs. 23.54 lakhs",
+        "Assistant Manager (SCALE I): Basic: 48480-2000/7-62480-2340/2-67160-2680/7-85920 | Rs. 19.38 lakhs",
+    
+        "Selection Process:",
+        "- Online Test / Scenario-based Test.",
+        "- Personal Interview.",
+    
+        "Additional Information:",
+        "- Application Fee: ₹750/- for SC/ST/PwBD/Women, ₹850/- for others (plus GST).",
+        "- Submission: Online only. Required documents include photograph, signature, thumb impression, and a hand-written declaration.",
+        "- Deadlines: Application starts on 18th November 2024 and closes on 3rd December 2024."
+      ],
+      "notification": "https://drive.google.com/file/d/1NzL1RviHd3ZTUswndQm1hIIgAT0LoC7o/view",
+      "jobLink": "https://ibpsonline.ibps.in/cbimoct24/",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
     }
     
     
