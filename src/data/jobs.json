@@ -825,13 +825,13 @@
       "id": "51",
       "companyImage": "/images/cboi.png",
       "companyName": "Central Bank of India",
-      "jobRole": "Specialist Cadre Officers (IT)",
+      "jobRole": "Specialist Cadre Officers (IT and Other Streams)",
       "vacancy": "253",
       "postDate": "2024-11-18",
       "category": "Government Job",
-      "experience": "2-8 years",
-      "qualification": "B.E. / B.Tech / MCA",
-      "skills": "UI/UX Design, Java, Mobile Development, COBOL, .NET, Cloud, Cybersecurity, Data Engineering",
+      "experience": "2 to 8 years (varies by scale)",
+      "qualification": "B.E. / B. Tech. / MCA",
+      "skills": "IT Specialist, Network Administration, Cybersecurity, Data Engineering, DevSecOps, Cloud Infrastructure",
       "jobDescription": [
         "Locations: Mumbai, Navi Mumbai, Hyderabad",
         "Who We Are:",
@@ -858,37 +858,124 @@
         "- Data Analysis: Data Engineering, Machine Learning, GenAI.",
         "- Security: Cybersecurity, IT SOC Analysis.",
         "- DevOps: DevSecOps, Production Support, Application Monitoring.",
-    
-        "Eligibility Criteria:",
-        "- Qualification: B.E. / B.Tech in Computer Science / IT / Electronics or MCA.",
-        "- Experience: 2-8 years depending on the grade.",
-    
-        "Central Bank of India IT Specialist Age Limit:",
-        "Scale | Age Limit | Experience",
-        "IV: Min 34 - Max 40 Years | Minimum 8 Years",
-        "III: Min 30 - Max 38 Years | Minimum 6 Years",
-        "II: Min 27 - Max 33 Years | Minimum 4 Years",
-        "I: Min 23 - Max 27 Years | Minimum 2 Years",
-    
-        "Central Bank of India IT Specialist Salary:",
-        "GRADE/SCALE | SCALE OF PAY | Approximate Annual CTC",
-        "Chief Manager (SCALE IV): Basic: 102300-2980/4-114220-3360/2-120940 | Rs. 35.27 lakhs",
-        "Senior Manager (SCALE III): Basic: 85920-2680/5-99320-2980/2-105280 | Rs. 29.17 lakhs",
-        "Manager (SCALE II): Basic: 64820-2340/1-67160-2680/10-93960 | Rs. 23.54 lakhs",
-        "Assistant Manager (SCALE I): Basic: 48480-2000/7-62480-2340/2-67160-2680/7-85920 | Rs. 19.38 lakhs",
+        
+        "Post Name and Vacancies:",
+        "- Specialist (IT & Other Streams) SC IV: 10",
+        "- Specialist (IT & Other Streams) SC III: 56",
+        "- Specialist (IT & Other Streams) SC II: 162",
+        "- IT (Specialist) SC I: 25",
     
         "Selection Process:",
-        "- Online Test / Scenario-based Test.",
-        "- Personal Interview.",
+        "- Online Platform Test / Scenario Based Test",
+        "- Personal Interview",
     
-        "Additional Information:",
-        "- Application Fee: ₹750/- for SC/ST/PwBD/Women, ₹850/- for others (plus GST).",
-        "- Submission: Online only. Required documents include photograph, signature, thumb impression, and a hand-written declaration.",
-        "- Deadlines: Application starts on 18th November 2024 and closes on 3rd December 2024."
+        "Pay Scales:",
+        "- Chief Manager (Scale IV): Basic: 102300-120940; Approx. Annual CTC: Rs. 35.27 lakhs",
+        "- Senior Manager (Scale III): Basic: 85920-105280; Approx. Annual CTC: Rs. 29.17 lakhs",
+        "- Manager (Scale II): Basic: 64820-93960; Approx. Annual CTC: Rs. 23.54 lakhs",
+        "- Assistant Manager (Scale I): Basic: 48480-85920; Approx. Annual CTC: Rs. 19.38 lakhs",
+    
+        "Eligibility Criteria:",
+        "- Qualification: B.E. / B. Tech. in relevant IT fields or MCA from a recognized university or institution.",
+        "- Experience: SC IV: Min 8 years, SC III: Min 6 years, SC II: Min 4 years, SC I: Min 2 years."
       ],
-      "notification": "https://drive.google.com/file/d/1NzL1RviHd3ZTUswndQm1hIIgAT0LoC7o/view",
+    
+      "applicationFee": [
+        "SC/ST/PwBD/Women: ₹750 + GST",
+        "All Other Candidates: ₹850 + GST"
+      ],
+    
+      "documents": [
+        "Apply online through the Central Bank of India official portal.",
+        "Required documents to upload:",
+        "- Passport Size Photograph",
+        "- Candidate’s Signature",
+        "- Left Thumb Impression",
+        "- Hand-written Declaration",
+        "- Educational Qualifications",
+        "- Mark Sheets and Experience Certificates",
+        "- Other Supporting Documents"
+      ],
+    
+      "importantDates": [
+        "- Start Date: 18/11/2024",
+        "- Closing Date: 03/12/2024"
+      ],
+    
       "jobLink": "https://ibpsonline.ibps.in/cbimoct24/",
+      "notification": "https://drive.google.com/file/d/1NzL1RviHd3ZTUswndQm1hIIgAT0LoC7o/view",
       "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    
+    {
+      "id": "52",
+      "companyImage": "/images/nlc.png",
+      "companyName": "NLC India Limited",
+      "jobRole": "Executives, Apprenticeship, Various Managerial Positions",
+      "vacancy": "1347",
+      "postDate": "2024-11-20",
+      "category": "Government Job",
+      "experience": "Varies by position",
+      "qualification": "Bachelor's Degree / Master's Degree / Diploma in relevant fields",
+      "skills": "Mechanical, Electrical, Civil, Environmental, Geology, HR, Finance, Law, Medical, Scientific, Commercial",
+      "jobDescription": [
+        "Post Name and Vacancies:",
+        "- Graduate Apprenticeship, Technician Apprenticeship, Trade Apprenticeship: 1013",
+        "Selection Process:",
+        "- Legal Discipline: Written Test (80 marks) + Personal Interview (20 marks)",
+        "- Other Disciplines: Personal Interview",
+        "Pay Scales:",
+        "- General Manager (E-8): ₹1,20,000 – ₹2,80,000",
+        "- Deputy General Manager (E-7): ₹1,00,000 – ₹2,60,000",
+        "- Additional Chief Manager (E-6): ₹90,000 – ₹2,40,000",
+        "- Deputy Chief Engineer/Manager (E-5): ₹80,000 – ₹2,20,000",
+        "- Executive Engineer/Manager (E-4): ₹70,000 – ₹2,00,000",
+        "- Assistant Executive Manager (E-2): ₹50,000 – ₹1,60,000",
+
+        "Eligibility Criteria:",
+        "Mechanical: Full time or Part-time Bachelor Degree in Mechanical / Mechanical & Production / Industrial and Production Engineering / Production Engineering.",
+        "Electrical: Full time or Part-time Bachelor Degree in Electrical / Electrical & Electronics / Power Engineering / Electrical, Instrumentation & Control / Power Systems Engineering / Power Systems & High Voltage Engineering / Electronics & Power / Power Electronics / Power Plant Engineering / Energy Engineering.",
+        "Civil: Full time or Part-time Bachelor Degree in Civil / Civil & Structural Engineering.",
+        "Control and Instrumentation: Full Time / Part Time Bachelor Degree in Instrumentation Engineering / Electronics & Instrumentation Engineering / Instrumentation & Control Engineering / Applied Electronics & Instrumentation Engineering.",
+        "Environmental Engineering: Full time or Part-time Bachelor Degree in Environmental Engineering (or) Bachelor Degree in Energy & Environmental Engineering (or) Any Engineering Degree with PG Degree / Diploma in Environmental Engineering / Environmental Science & Technology.",
+        "Scientific: Full time or Part-time M.Sc. in Chemistry / Analytical Chemistry / Organic Chemistry / Inorganic Chemistry / Physical Chemistry.",
+        "Geology: Full time or Part-time M.Tech. / M.Sc. in Geology/Applied Geology.",
+        "MME: Full time / Part-time Degree in Mining Machinery Engineering.",
+        "Commercial: Full time Bachelor Degree in Mechanical/Electrical /Civil Engineering or CA or ICWA.",
+        "Finance: Pass in final examination of Institute of Chartered Accountants of India (CA) / Institute of Cost and Works Accountants of India (ICWAI / ICMAI) (or) Degree in any Discipline with MBA of minimum 2 years duration with specialization in Finance.",
+        "Secretarial: Member of the Institute of Company Secretaries of India.",
+        "Law: Bachelor of Law Degree (3-Years or 5-years). Should have enrolled as an Advocate with any State Bar Council in India.",
+        "HR: Degree in any discipline and Post Graduate Degree / Post Graduate Diploma of Two years full time duration in Community Development / Rural Development / Community Organization & Development.",
+        "Medical Officer: All Degree/ PG degree/ DNB/ Diploma should have registered with Medical Council of India / State Medical Council/NMC)."
+      ],
+        
+      
+      
+      "applicationFee": [
+        "General/EWS/OBC: ₹854",
+        "SC/ST/PwBD/Ex-Servicemen: ₹354"
+      ],
+      "documents": [
+        "Apply online through the NLC India official website.",
+        "Required documents to upload:",
+        "- Passport Size Photograph",
+        "- Candidate’s Signature",
+        "- Proof of Date of Birth",
+        "- AADHAR Card",
+        "- Educational Qualifications",
+        "- Mark Sheets and Experience Certificates",
+        "- Community Certificate",
+        "- Other Supporting Documents"
+      ],
+      "importantDates":[
+        "- Start Date: 18/11/2024 at 10:00 hrs",
+        "- Closing Date: 17/12/2024 at 17:00 hrs",
+        "- Last Date for Fee Payment: 17/12/2024 at 23:45 hrs"
+      ],
+      "jobLink": "https://www.nlcindia.in/new_website/index.htm",
+      "notification":"https://drive.google.com/file/d/1kzbo-nskVCxqc85dgG7Fj0L8hpa8AuAR/edit",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      
     }
     
     
