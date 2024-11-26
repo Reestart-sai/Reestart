@@ -39,23 +39,34 @@ const App = () => {
     }
   }, []);
 
-  // Load cached jobs data if available and not expired
   useEffect(() => {
-    const cachedJobs = localStorage.getItem('cachedJobs');
-    const cacheTimestamp = localStorage.getItem('cacheTimestamp');
-    const isCacheValid =
-      cachedJobs && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION_TIME;
+    const loadJobsWithCache = () => {
+      const cachedJobs = localStorage.getItem('cachedJobs');
+      const cacheTimestamp = localStorage.getItem('cacheTimestamp');
 
-    if (isCacheValid) {
-      setJobs(JSON.parse(cachedJobs));
-    } else {
-      // Cache jobs data in local storage and update timestamp
+      if (cachedJobs && cacheTimestamp) {
+        const isCacheExpired = Date.now() - parseInt(cacheTimestamp, 10) > CACHE_EXPIRATION_TIME;
+
+        if (!isCacheExpired) {
+          // Use cached data if valid
+          setJobs(JSON.parse(cachedJobs));
+          return;
+        }
+      }
+
+      // Cache is invalid or doesn't exist; fetch and cache new data
       localStorage.setItem('cachedJobs', JSON.stringify(jobsData));
       localStorage.setItem('cacheTimestamp', Date.now());
       setJobs(jobsData);
-    }
-  }, []);
+    };
 
+    loadJobsWithCache();
+
+    // Optionally set an interval to refresh the cache automatically
+    const cacheRefreshInterval = setInterval(loadJobsWithCache, CACHE_EXPIRATION_TIME);
+
+    return () => clearInterval(cacheRefreshInterval); // Clean up interval
+  }, []);
   // Handle search functionality with caching
   const handleSearch = (query) => {
     const cachedSearch = localStorage.getItem(`search_${query}`);
