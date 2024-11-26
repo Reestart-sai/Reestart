@@ -1,4 +1,5 @@
 // src/components/InternshipsList.js
+// src/components/InternshipsList.js
 import React, { useEffect, useState } from 'react';
 import JobCardList from './JobCardList';
 import { Link } from 'react-router-dom';
@@ -13,22 +14,31 @@ const InternshipsList = ({ jobs }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const cachedJobs = JSON.parse(localStorage.getItem('cachedInternships'));
-    const cacheTimestamp = localStorage.getItem('cacheTimestamp');
+    const checkAndRefreshCache = () => {
+      const cachedJobs = JSON.parse(localStorage.getItem('cachedInternships'));
+      const cacheTimestamp = localStorage.getItem('cacheTimestampInternships');
 
-    if (cachedJobs && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION) {
-      setFilteredJobs(cachedJobs);
-      setIsLoading(false);
-    } else {
-      const internships = jobs.filter((job) => job.category?.toLowerCase() === 'internship');
-      const latestInternships = sortJobsByDate(internships).slice(0, 5);
-      setFilteredJobs(latestInternships);
-      setIsLoading(false);
+      if (cachedJobs && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION) {
+        setFilteredJobs(cachedJobs);
+      } else {
+        // Refresh cache when expired
+        const internships = jobs.filter((job) => job.category?.toLowerCase() === 'internship');
+        const latestInternships = sortJobsByDate(internships).slice(0, 5);
+        setFilteredJobs(latestInternships);
 
-      // Cache the jobs in local storage
-      localStorage.setItem('cachedInternships', JSON.stringify(latestInternships));
-      localStorage.setItem('cacheTimestamp', Date.now());
-    }
+        // Update cache
+        localStorage.setItem('cachedInternships', JSON.stringify(latestInternships));
+        localStorage.setItem('cacheTimestampInternships', Date.now());
+      }
+      setIsLoading(false);
+    };
+
+    checkAndRefreshCache();
+
+    // Optionally, you can set up an interval to refresh the cache periodically.
+    const interval = setInterval(() => checkAndRefreshCache(), CACHE_EXPIRATION);
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [jobs]);
 
   if (isLoading) return <div>Loading internships...</div>;
