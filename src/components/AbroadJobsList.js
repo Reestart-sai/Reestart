@@ -13,22 +13,31 @@ const AbroadJobsList = ({ jobs }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const cachedJobs = JSON.parse(localStorage.getItem('cachedAbroadJobs'));
-    const cacheTimestamp = localStorage.getItem('cacheTimestamp');
+    const checkAndRefreshCache = () => {
+      const cachedJobs = JSON.parse(localStorage.getItem('cachedAbroadJobs'));
+      const cacheTimestamp = localStorage.getItem('cacheTimestampAbroadJobs');
 
-    if (cachedJobs && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION) {
-      setFilteredJobs(cachedJobs);
-      setIsLoading(false);
-    } else {
-      const abroadJobs = jobs.filter((job) => job.category?.toLowerCase() === 'abroad job');
-      const latestAbroadJobs = sortJobsByDate(abroadJobs).slice(0, 5);
-      setFilteredJobs(latestAbroadJobs);
-      setIsLoading(false);
+      if (cachedJobs && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION) {
+        setFilteredJobs(cachedJobs);
+      } else {
+        // Refresh cache when expired
+        const abroadJobs = jobs.filter((job) => job.category?.toLowerCase() === 'abroad job');
+        const latestAbroadJobs = sortJobsByDate(abroadJobs).slice(0, 5);
+        setFilteredJobs(latestAbroadJobs);
 
-      // Cache the jobs in local storage
-      localStorage.setItem('cachedAbroadJobs', JSON.stringify(latestAbroadJobs));
-      localStorage.setItem('cacheTimestamp', Date.now());
-    }
+        // Update cache
+        localStorage.setItem('cachedAbroadJobs', JSON.stringify(latestAbroadJobs));
+        localStorage.setItem('cacheTimestampAbroadJobs', Date.now());
+      }
+      setIsLoading(false);
+    };
+
+    checkAndRefreshCache();
+
+    // Optionally, you can set up an interval to refresh the cache periodically.
+    const interval = setInterval(() => checkAndRefreshCache(), CACHE_EXPIRATION);
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [jobs]);
 
   if (isLoading) return <div>Loading abroad jobs...</div>;
