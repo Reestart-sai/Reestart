@@ -1,826 +1,6 @@
 [
-  {
-  "id": "1",
-  "companyImage": "/images/youtube.png",
-  "companyName": "YouTube",
-  "jobRole": "Software Trainee",
-  "postDate": "2024-10-25",
-  "category": "Private Job",
-  "experience": "0-1 years",
-  "qualification": "B.Tech, M.Tech (2022/2023/2024)",
-  "skills": "HTML, CSS, JavaScript, Java, SQL",
-  "jobDescription": [
-    "Locations: Gurgaon | Bengaluru",
-    "Who We Are:",
-    "Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities.",
-    "Founded in 1963, BCG pioneered business strategy and continues to drive growth, competitive advantage, and impact.",
-    "BCG's global teams blend digital and human capabilities, bringing diverse expertise to create change.",
-    "We offer solutions through management consulting, technology, corporate ventures, and business strategy.",
-    "BCG works collaboratively across all levels of the client organization, driving sustainable results.",
-    
-    "What You'll Do:",
-    "Collaborate with consulting teams on advanced analytics projects across industries.",
-    "Apply analytics methodologies to deliver insights and subject matter expertise.",
-    "Gather requirements, design, develop, and support analytics solutions for clients.",
-    "Provide technical support to ensure high-quality and efficient solutions.",
-    
-    "You're Good At:",
-    "Working with case (and proposal) teams.",
-    "Acquiring deep expertise in analytics topics and understanding all capabilities.",
-    "Delivering original insights and managing analytics modules.",
-    "Establishing credibility through thought leadership.",
-    "Synthesizing insights into presentations, reports, dashboards, and charts.",
-    "Maintaining repositories for sanitized documents and internal references.",
-    "Leading workstreams independently or with minimal supervision.",
-    "Supporting business development through proposals and marketing collateral.",
-    "Guiding junior team members and ensuring quality in analytical work.",
-    "Contributing to team content and intellectual property development.",
-    "Imparting technical training to team members and consulting cohorts.",
-
-    "Technical Skills:",
-    "Strong proficiency in statistics: hypothesis testing, sampling, and statistical interpretation.",
-    "Hands-on data mining and predictive modeling: Linear Regression, K-means, DBSCAN, Random Forest, SARIMAX.",
-    "Experience with cloud platforms: Azure, AWS, GCP; knowledge of SageMaker and Azure ML.",
-    "Programming: Python (mandatory), SQL, R, SAS, or PySpark.",
-    "Visualization tools: Tableau, QlikView, Power BI, Streamlit.",
-    "Data management: Alteryx, MS Access, or any RDBMS.",
-    "ML Deployment: Airflow, MLflow, Luigi, Docker.",
-    "Big Data: Hadoop, Spark.",
-    "Data Warehousing: Teradata, Synapse, Redshift, BigQuery.",
-    "Version Control: Git, GitHub, GitLab.",
-    "Office tools: Excel, PowerPoint, Word.",
-    "Coding IDE: VS Code, PyCharm.",
-    "GenAI tools: OpenAI, Google PaLM/BERT, Hugging Face.",
-
-    "Functional Skills:",
-    "Building analytics solutions that deliver measurable business value.",
-    "Expertise in price optimization, promotion effectiveness, and product assortment optimization.",
-    "Experience with sales force effectiveness and loyalty programs.",
-    "Proficiency in labor optimization and customer lifecycle management (CLM).",
-    "Skills in revenue enhancement: segmentation, cross-sell, up-sell, offer recommendations, loyalty programs, LTV maximization, and churn prevention."
-  ],
-  "applyLink": "https://youtube.com/apply"
-  },
-
-  {
-      "id": "2",
-      "companyImage": "/images/amazon.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-16",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    
   
-  {
-      "id": "3",
-      "companyImage": "/images/ibm.png",
-      "companyName": "ibm",
-      "jobRole": "Backend Developer",
-      "postDate": "2024-10-15",
-      "category": "Private Job",
-      "experience": "2-3 years",
-      "qualification": "B.Tech - CSE",
-      "skills": "Node.js, Express.js, MongoDB, AWS",
-      "description": "Strong experience in backend development and API design.",
-      "applyLink": "https://ibm.com/careers"
-    },
-    {
-      "id": "4",
-      "companyImage": "/images/google.png",
-      "companyName": "Google",
-      "jobRole": "Backend Developer",
-      "postDate": "2024-10-15",
-      "category": "Private Job",
-      "experience": "2-3 years",
-      "qualification": "B.Tech - CSE",
-      "skills": "Node.js, Express.js, MongoDB, AWS",
-      "description": "Strong experience in backend development and API design.",
-      "applyLink": "https://google.com/careers"
-    },
-    {
-      "id": "5",
-      "companyImage": "/images/hotstar.png",
-      "companyName": "hotstar",
-      "jobRole": "Backend Developer",
-      "postDate": "2024-10-15",
-      "category": "Private Job",
-      "experience": "2-3 years",
-      "qualification": "B.Tech - CSE",
-      "skills": "Node.js, Express.js, MongoDB, AWS",
-      "description": "Strong experience in backend development and API design.",
-      "applyLink": "https://hotstart.com/careers"
-    },
-    {
-      "id": "6",
-      "companyImage": "/images/youtube.png",
-      "companyName": "youtube",
-      "jobRole": "Software Trainee",
-      "postDate": "2023-10-11",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.Tech, M.Tech (2022/2023/2024)",
-      "skills": "HTML, CSS, JavaScript, Java, SQL",
-      "description": "1+ years of data analytics or automation experience. Knowledge of SQL, data pipelines, and Excel at a moderate level.",
-      "applyLink": "https://youtube.com/apply"
-    },
-    {
-        "id": "7",
-        "companyImage": "/images/amazon.png",
-        "companyName": "Amazon",
-        "jobRole": "Software Trainee",
-        "postDate": "2023-10-23",
-        "category": "Private Job",
-        "experience": "0-1 years",
-        "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-        "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-        "jobDescription": [
-          "1+ years of data analytics or automation experience",
-          "Knowledge of data pipelining and extraction using SQL",
-          "Knowledge of SQL and Excel at a moderate or advanced level"
-        ],
-        "jobLink": "https://www.amazon.jobs",
-        "telegramLink": "https://t.me/amazon-jobs"
-      },
     
-    {
-        "id": "8",
-        "companyImage": "/images/ibm.png",
-        "companyName": "ibm",
-        "jobRole": "Backend Developer",
-        "postDate": "2023-12-15",
-        "category": "Private Job",
-        "experience": "2-3 years",
-        "qualification": "B.Tech - CSE",
-        "skills": "Node.js, Express.js, MongoDB, AWS",
-        "description": "Strong experience in backend development and API design.",
-        "applyLink": "https://ibm.com/careers"
-      },
-      {
-        "id": "9",
-        "companyImage": "/images/google.png",
-        "companyName": "Google",
-        "jobRole": "Backend Developer",
-        "postDate": "2023-07-15",
-        "category": "Private Job",
-        "experience": "2-3 years",
-        "qualification": "B.Tech - CSE",
-        "skills": "Node.js, Express.js, MongoDB, AWS",
-        "description": "Strong experience in backend development and API design.",
-        "applyLink": "https://google.com/careers"
-      },
-      {
-        "id": "10",
-        "companyImage": "/images/hotstar.png",
-        "companyName": "hotstar",
-        "jobRole": "Backend Developer",
-        "postDate": "2022-06-15",
-        "category": "Private Job",
-        "experience": "2-3 years",
-        "qualification": "B.Tech - CSE",
-        "skills": "Node.js, Express.js, MongoDB, AWS",
-        "description": "Strong experience in backend development and API design.",
-        "applyLink": "https://hotstart.com/careers"
-      },
-      
-      {
-        "id": "11",
-        "companyImage": "/images/youtube.png",
-        "companyName": "youtube",
-        "jobRole": "Software Trainee",
-        "postDate": "2021-01-23",
-        "category": "Private Job",
-        "experience": "0-1 years",
-        "qualification": "B.Tech, M.Tech (2022/2023/2024)",
-        "skills": "HTML, CSS, JavaScript, Java, SQL",
-        "description": "1+ years of data analytics or automation experience. Knowledge of SQL, data pipelines, and Excel at a moderate level.",
-        "applyLink": "https://youtube.com/apply"
-      },
-      {
-          "id": "12",
-          "companyImage": "/images/amazon.png",
-          "companyName": "Amazon",
-          "jobRole": "Software Trainee",
-          "postDate": "2021-10-30",
-          "category": "Private Job",
-          "experience": "0-1 years",
-          "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-          "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-          "jobDescription": [
-            "1+ years of data analytics or automation experience",
-            "Knowledge of data pipelining and extraction using SQL",
-            "Knowledge of SQL and Excel at a moderate or advanced level"
-          ],
-          "jobLink": "https://www.amazon.jobs",
-          "telegramLink": "https://t.me/amazon-jobs"
-        },
-      
-      {
-          "id": "13",
-          "companyImage": "/images/ibm.png",
-          "companyName": "ibm",
-          "jobRole": "Backend Developer",
-          "postDate": "2021-04-28",
-          "category": "Private Job",
-          "experience": "2-3 years",
-          "qualification": "B.Tech - CSE",
-          "skills": "Node.js, Express.js, MongoDB, AWS",
-          "description": "Strong experience in backend development and API design.",
-          "applyLink": "https://ibm.com/careers"
-        },
-        {
-          "id": "14",
-          "companyImage": "/images/google.png",
-          "companyName": "Google",
-          "jobRole": "Backend Developer",
-          "postDate": "2021-10-25",
-          "category": "Private Job",
-          "experience": "2-3 years",
-          "qualification": "B.Tech - CSE",
-          "skills": "Node.js, Express.js, MongoDB, AWS",
-          "description": "Strong experience in backend development and API design.",
-          "applyLink": "https://google.com/careers"
-        },
-        {
-          "id": "15",
-          "companyImage": "/images/hotstar.png",
-          "companyName": "hotstar",
-          "jobRole": "Backend Developer",
-          "postDate": "2021-10-15",
-          "category": "Private Job",
-          "experience": "2-3 years",
-          "qualification": "B.Tech - CSE",
-          "skills": "Node.js, Express.js, MongoDB, AWS",
-          "description": "Strong experience in backend development and API design.",
-          "applyLink": "https://hotstart.com/careers"
-        },
-  
-    {
-      "id": "16",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "17",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "18",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "19",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-10",
-      "category": "Government Job",
-      "vacancy":"125",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "notification": "https://drive.google.com/file/d/1NzL1RviHd3ZTUswndQm1hIIgAT0LoC7o/view",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "20",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "21",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-13",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "22",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-17",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "23",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-10-11",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "24",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2021-10-30",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "25",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-19",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "26",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-10-07",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "27",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-03-30",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "28",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2023-06-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "29",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2019-12-10",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "30",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-10-13",
-      "category": "Government Job",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "31",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-10-07",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "32",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-03-30",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "33",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2023-06-10",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "34",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2019-12-10",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "35",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-10-13",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "36",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2022-01-07",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "37",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2021-03-30",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "38",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2012-06-10",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "39",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "UPSC",
-      "jobRole": "Civil Services",
-      "postDate": "2013-12-10",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "description": "UPSC Civil Services Exam for various government positions.",
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "40",
-      "companyImage": "https://via.placeholder.com/150",
-      "companyName": "CGI",
-      "jobRole": "Civil Services",
-      "postDate": "2024-10-25",
-      "category": "Internship",
-      "experience": "Fresher",
-      "qualification": "Graduate",
-      "skills": "Critical Thinking, Aptitude",
-      "jobDescription": [
-        "Locations: Gurgaon | Bengaluru",
-        "Who We Are:",
-        "Boston Consulting Group partners with leaders in business and society to tackle their most important challenges and capture their greatest opportunities.",
-        "Founded in 1963, BCG pioneered business strategy and continues to drive growth, competitive advantage, and impact.",
-        "BCG's global teams blend digital and human capabilities, bringing diverse expertise to create change.",
-        "We offer solutions through management consulting, technology, corporate ventures, and business strategy.",
-        "BCG works collaboratively across all levels of the client organization, driving sustainable results.",
-        
-        "What You'll Do:",
-        "Collaborate with consulting teams on advanced analytics projects across industries.",
-        "Apply analytics methodologies to deliver insights and subject matter expertise.",
-        "Gather requirements, design, develop, and support analytics solutions for clients.",
-        "Provide technical support to ensure high-quality and efficient solutions.",
-        
-        "You're Good At:",
-        "Working with case (and proposal) teams.",
-        "Acquiring deep expertise in analytics topics and understanding all capabilities.",
-        "Delivering original insights and managing analytics modules.",
-        "Establishing credibility through thought leadership.",
-        "Synthesizing insights into presentations, reports, dashboards, and charts.",
-        "Maintaining repositories for sanitized documents and internal references.",
-        "Leading workstreams independently or with minimal supervision.",
-        "Supporting business development through proposals and marketing collateral.",
-        "Guiding junior team members and ensuring quality in analytical work.",
-        "Contributing to team content and intellectual property development.",
-        "Imparting technical training to team members and consulting cohorts.",
-    
-        "Technical Skills:",
-        "Strong proficiency in statistics: hypothesis testing, sampling, and statistical interpretation.",
-        "Hands-on data mining and predictive modeling: Linear Regression, K-means, DBSCAN, Random Forest, SARIMAX.",
-        "Experience with cloud platforms: Azure, AWS, GCP; knowledge of SageMaker and Azure ML.",
-        "Programming: Python (mandatory), SQL, R, SAS, or PySpark.",
-        "Visualization tools: Tableau, QlikView, Power BI, Streamlit.",
-        "Data management: Alteryx, MS Access, or any RDBMS.",
-        "ML Deployment: Airflow, MLflow, Luigi, Docker.",
-        "Big Data: Hadoop, Spark.",
-        "Data Warehousing: Teradata, Synapse, Redshift, BigQuery.",
-        "Version Control: Git, GitHub, GitLab.",
-        "Office tools: Excel, PowerPoint, Word.",
-        "Coding IDE: VS Code, PyCharm.",
-        "GenAI tools: OpenAI, Google PaLM/BERT, Hugging Face.",
-    
-        "Functional Skills:",
-        "Building analytics solutions that deliver measurable business value.",
-        "Expertise in price optimization, promotion effectiveness, and product assortment optimization.",
-        "Experience with sales force effectiveness and loyalty programs.",
-        "Proficiency in labor optimization and customer lifecycle management (CLM).",
-        "Skills in revenue enhancement: segmentation, cross-sell, up-sell, offer recommendations, loyalty programs, LTV maximization, and churn prevention."
-      ],
-      "applyLink": "https://upsc.gov.in"
-    },
-    {
-      "id": "41",
-      "companyImage": "/images/amazon.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-16",
-      "category": "Abroad Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "42",
-      "companyImage": "/images/amazon.png",
-      "companyName": "zoho",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-01-01",
-      "category": "Abroad Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "43",
-      "companyImage": "/images/amazon.png",
-      "companyName": "zoom",
-      "jobRole": "Software Trainee",
-      "postDate": "2023-10-16",
-      "category": "Abroad Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "44",
-      "companyImage": "/images/google.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee intern",
-      "postDate": "2024-10-16",
-      "category": "Abroad Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "45",
-      "companyImage": "/images/ibm.png",
-      "companyName": "IBM",
-      "jobRole": " Trainee",
-      "postDate": "2024-10-16",
-      "category": "Abroad Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "46",
-      "companyImage": "/images/amazon.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-16",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "47",
-      "companyImage": "/images/amazon.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-16",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "48",
-      "companyImage": "/images/ibm.png",
-      "companyName": "IBM",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-13",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "49",
-      "companyImage": "/images/amazon.png",
-      "companyName": "Amazon",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-17",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
-    {
-      "id": "50",
-      "companyImage": "/images/youtube.png",
-      "companyName": "youtube",
-      "jobRole": "Software Trainee",
-      "postDate": "2024-10-19",
-      "category": "Private Job",
-      "experience": "0-1 years",
-      "qualification": "B.TECH - CSE, M.TECH 2022/2023/2024",
-      "skills": ["HTML", "CSS", "JavaScript", "Java", "SQL"],
-      "jobDescription": [
-        "1+ years of data analytics or automation experience",
-        "Knowledge of data pipelining and extraction using SQL",
-        "Knowledge of SQL and Excel at a moderate or advanced level"
-      ],
-      "jobLink": "https://www.amazon.jobs",
-      "telegramLink": "https://t.me/amazon-jobs"
-    },
     {
       "id": "51",
       "companyImage": "/images/cboi.png",
@@ -976,8 +156,1629 @@
       "notification":"https://drive.google.com/file/d/1kzbo-nskVCxqc85dgG7Fj0L8hpa8AuAR/edit",
       "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
       
+    },
+    {
+      "id": "53",
+      "companyImage": "/images/indiaseeds.png",
+      "companyName": "India Seeds, National Seeds Corporation Limited (NSC)",
+      "jobRole": "Various Manager, Trainee, and Management Trainee Positions",
+      "vacancy": "188",
+      "postDate": "2024-11-23",
+      "category": "Government Job",
+      "experience": "Varies by position",
+      "qualification": "Bachelor's Degree / Master's Degree / Diploma in relevant fields",
+      "skills": "HR, Agriculture, Quality Control, Engineering, Marketing, Stenography, Accounts",
+      "jobDescription": [
+        "Post Name and Vacancies:",
+        "- Deputy General Manager (Vigilance): 01",
+        "- Assistant Manager (Vigilance): 01",
+        "- Management Trainee (HR): 02",
+        "- Management Trainee (Quality Control): 02",
+        "- Management Trainee (Elect. Engg.): 01",
+        "- Senior Trainee (Vigilance): 02",
+        "- Trainee (Agriculture): 49",
+        "- Trainee (Quality Control): 11",
+        "- Trainee (Marketing): 33",
+        "- Trainee (Human Resources): 16",
+        "- Trainee (Stenographer): 15",
+        "- Trainee (Accounts): 08",
+        "- Trainee (Agriculture Stores): 19",
+        "- Trainee (Engineering Stores): 07",
+        "- Trainee (Technician): 21",
+        "Eligibility Criteria:",
+        "- Deputy General Manager (Vigilance): MBA (HR)/ PG Degree/Diploma in Industrial Relations / Personnel Management / Labour Welfare / MSW / MA (Public Administration) / LLB + 10 years experience.",
+        "- Assistant Manager (Vigilance): MBA (HR)/ PG Degree/Diploma in Industrial Relations / Personnel Management / Labour Welfare / MSW / MA (Public Administration) / LLB + 2 years experience.",
+        "- Management Trainee (HR): PG Degree / Diploma in Personnel Management / Industrial Relations / Labour Welfare / HR Management OR MBA (HRM).",
+        "- Management Trainee (Quality Control): M.Sc. (Agri.) with specialization in Agronomy / Seed Technology / Plant Breeding & Genetics.",
+        "- Management Trainee (Elect. Engg.): BE/B.Tech. (Electrical Engg. / Electrical & Electronics Engg.).",
+        "- Senior Trainee (Vigilance): MBA (HR)/ PG Degree/Diploma in Industrial Relations / Personnel Management / Labour Welfare / MSW / MA (Public Administration) / LLB.",
+        "- Trainee (Agriculture): B.Sc. (Agriculture).",
+        "- Trainee (Quality Control): B.Sc. (Agriculture).",
+        "- Trainee (Marketing): B.Sc. (Agriculture).",
+        "- Trainee (Human Resources): Degree + knowledge of MS-Office and typing (30 WPM in English). Hindi typing (25 WPM) desirable.",
+        "- Trainee (Stenographer): Senior Secondary + Diploma in Office Management with Stenography.",
+        "- Trainee (Accounts): B.Com.",
+        "- Trainee (Agriculture Stores): B.Sc. (Agriculture).",
+        "- Trainee (Engineering Stores): Diploma in Agriculture/Mechanical Engg. OR ITI in Fitter/Diesel Mechanic/Tractor Mechanic.",
+        "- Trainee (Technician): ITI in relevant trade + 1 year trade apprenticeship + NAC Examination."
+      ],
+      "applicationFee": [
+        "General/OBC/EWS/Ex-Servicemen: ₹500 + processing fee",
+        "SC/ST/PwD: Nil"
+      ],
+      "documents": [
+        "Apply online through the India Seeds official website (indiaseeds.com).",
+        "Required documents to upload:",
+        "- Scanned copy of Passport Size Photograph",
+        "- Scanned copy of Candidate’s Signature",
+        "- Proof of Date of Birth",
+        "- Educational Qualifications",
+        "- Relevant Certificates and Mark Sheets",
+        "- Experience Certificates (if applicable)",
+        "- Community Certificate (if applicable)",
+        "- Other Supporting Documents"
+      ],
+      "importantDates": [
+        "- Start Date: 26/10/2024",
+        "- Closing Date: 30/11/2024"
+      ],
+      "jobLink": "https://www.indiaseeds.com/",
+      "notification": "https://drive.google.com/file/d/1kzbo-nskVCxqc85dgG7Fj0L8hpa8AuAR/edit",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "54",
+      "companyImage": "/images/bel.png",
+      "companyName": "Bharat Electronics Limited (BEL)",
+      "jobRole": "Engineer Vacancy (Fixed Tenure Basis)",
+      "vacancy": "229",
+      "postDate": "2024-11-21",
+      "category": "Government Job",
+      "experience": "Fresher",
+      "qualification": "BE/B.Tech/B.Sc Engineering",
+      "skills": "Electronics, Mechanical, Computer Science, Electrical",
+      "jobDescription": [
+        "Post Code and Vacancies:",
+        "- BGFTE01: Electronics (48), Mechanical (52), Computer Science (75), Electrical (2)",
+        "- EWAFTE02: Electronics (3)",
+        "- NSFTE03: Electronics (24)",
+        "- SWFTE04: Computer Science (10)",
+        "- MCFTE05: Electronics (10), Computer Science (5)",
+        "Selection Process:",
+        "- Computer-Based Test (CBT) in December 2024",
+        "Application Fee:",
+        "- For GEN/OBC(NCL)/EWS category: Rs. 472/- (Application Fee: 400/- + 18% GST)",
+        "- For SC/ST/PwBD/Ex-servicemen Candidates: Nil",
+        "Eligibility Criteria:",
+        "- Candidates should possess BE/B.Tech/B.Sc Engineering in the relevant discipline.",
+        "Age Limit (as on 01-11-2024):",
+        "- Upper Age Limit (UR): 28 Years",
+        "- Age relaxation is applicable as per rules."
+      ],
+      "applicationFee": [
+        "For GEN/OBC(NCL)/EWS category: Rs. 472/- (Application Fee: 400/- + 18% GST)",
+        "For SC/ST/PwBD/Ex-servicemen Candidates: Nil"
+      ],
+      "documents": [
+        "Apply online through the official BEL website.",
+        "Required documents to upload:",
+        "- Passport Size Photograph",
+        "- Candidate’s Signature",
+        "- Proof of Date of Birth",
+        "- Educational Qualifications",
+        "- Mark Sheets and Certificates",
+        "- Community Certificate (if applicable)"
+      ],
+      "importantDates": [
+        "- Last Date to Apply Online: 10-12-2024",
+        "- Computer-Based Test (CBT): December 2024"
+      ],
+      "jobLink": "https://jobapply.in/BEL2024BNGEngineerFTE/Default.aspx",
+      "notification": "https://bel-india.in/wp-content/uploads/2024/11/FTE-Adv-2024-25-English.pdf",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      
+    },
+    {
+      "id": "55",
+      "companyImage": "/images/cil.png",
+      "companyName": "Coal India Limited (CIL)",
+      "jobRole": "Management Trainee (MT)",
+      "vacancy": "640",
+      "postDate": "2024-11-24",
+      "category": "Government Job",
+      "experience": "Not specified",
+      "qualification": "BE/B.Tech/B.Sc Engineering",
+      "skills": "Mining, Civil, Electrical, Mechanical, Computer Science, E&T",
+      "jobDescription": [
+        "Post Name and Vacancies:",
+        "- Mining: 263",
+        "- Civil: 91",
+        "- Electrical: 102",
+        "- Mechanical: 104",
+        "- System: 41",
+        "- E&T: 39",
+        "Eligibility Criteria:",
+        "- Mining: Bachelor's degree in Mining Engineering with at least 60% marks.",
+        "- Civil: Bachelor's degree in the relevant branch of Engineering with a minimum of 60% marks.",
+        "- Electrical: Bachelor's degree in the relevant branch of Engineering with at least 60% marks.",
+        "- Mechanical: Bachelor's degree in the relevant branch of Engineering with a minimum of 60% marks.",
+        "- Computer Science: 1st Class degree in BE/ B.Tech/ B.Sc (Engineering) in Computer Science, Computer Engineering, IT, or any 1st Class degree with an MCA.",
+        "- E&T: Bachelor's degree in the relevant branch of Engineering (BE/ B.Tech/ B.Sc) with a minimum of 60% marks.",
+        "Selection Process:",
+        "- Shortlisting Based on the GATE-2024 Scores/Marks",
+        "- Interview",
+        "- Initial Medical Examination (IME)",
+        "- Documents Verification",
+        "Pay Scale:",
+        "- E-2 Grade: ₹50,000 – ₹1,60,000/- at the initial Basic of ₹50,000/- per month during the training period."
+      ],
+      "applicationFee": [
+        "General (UR / OBC (NCL) / EWS): ₹1000/-",
+        "SC / ST / PwBD / Employees of CIL: Nil"
+      ],
+      "documents": [
+        "Apply online through the CIL Official website.",
+        "Required documents to upload:",
+        "- Scanned Passport Size Photograph",
+        "- Candidate’s Signature",
+        "- Proof of Date of Birth",
+        "- Educational Qualifications Certificates",
+        "- GATE 2024 Scorecard",
+        "- Community Certificate (if applicable)",
+        "- Other Supporting Documents"
+      ],
+      "importantDates": [
+        "- Start Date: 29/10/2024",
+        "- Closing Date: 28/11/2024 up to 18:00 hrs"
+      ],
+      "jobLink": "https://cdn.digialm.com/EForms/configuredHtml/1258/91115/Registration.html",
+      "notification": "https://d3u7ubx0okog7j.cloudfront.net/documents/Detailed_Advertisement_fE6dhPs.pdf",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "56",
+      "companyImage": "/images/iaf.png",
+      "companyName": "Indian Air Force (IAF)",
+      "jobRole": "Ground Duty/Technical & Non-Technical",
+      "vacancy": "346+",
+      "postDate": "2024-11-23",
+      "category": "Government Job",
+      "experience": "Varies by position",
+      "qualification": "10+2/BE/B.Tech/B.Sc",
+      
+      "skills": "Leadership, Technical Expertise, Communication, Analytical Thinking",
+      "jobDescription": [
+        "Eligibility Criteria:",
+        "Flying Branch: Graduation with a minimum three years degree course in any discipline with 60% marks or equivalent OR B.E./B.Tech with 60% marks or equivalent.",
+        "Ground Duty (Technical): 10+2 with Physics and Maths and a 4-year Degree in Engineering/Technology.",
+        "Ground Duty (Non-Technical): Degree in relevant fields such as Administration, Logistics, Accounts, or Education.",
+        "NCC Special Entry (Flying Branch): 10+2 Physics and Maths and Graduation with 60% marks or equivalent.",
+        "Branch-wise Vacancies:",
+        "- Flying: 30 (Men – 21, Women – 09)",
+        "- Ground Duty (Technical): 189 (Men – 148, Women – 41)",
+        "- Ground Duty (Non-Technical): 117 (Men – 94, Women – 23)",
+        "- NCC Special Entry (Flying): 10% of seats from AFCAT/CDSE vacancies",
+        "Age Limit:",
+        "- Flying Branch and NCC Special Entry: 20 to 24 years as on 01/01/2026",
+        "- Ground Duty (Technical & Non-Technical): 20 to 26 years as on 01/01/2026",
+        "Pay Scale: ₹56100 – ₹177500/- (Level 10) with MSP ₹15500/-",
+        "Selection Process: Online Examination"
+      ],
+      "applicationFee": [
+        "General/EWS/OBC: ₹250 (Non-refundable for AFCAT Entry)",
+        "SC/ST/NCC Special Entry/Meteorology: No Fee"
+      ],
+      "documents": [
+        "Apply online through the AFCAT official website.",
+        "Required documents to upload:",
+        "- Passport Size Photograph",
+        "- Candidate’s Signature",
+        "- Proof of Date of Birth",
+        "- Educational Qualifications",
+        "- Mark Sheets",
+        "- NCC Certificates (if applicable)",
+        "- Other Supporting Documents"
+      ],
+      "importantDates": [
+        "- Start Date: 02/12/2024",
+        "- Closing Date: 31/12/2024 at 23:30 hrs",
+        "- Tentative Exam Date: July 2025"
+      ],
+      "jobLink": "https://afcat.cdac.in/AFCAT/",
+      "notification": "https://drive.google.com/file/d/1wqk01DrVk7WhDtp7FK7opYSKnfs4nGtR/edit",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    
+      {
+        "id": "57",
+        "companyImage": "/images/cdac.png",
+        "companyName": "CDAC",
+        "jobRole": "Project Associate/Manager/Engineers",
+        "vacancy": "999+",
+        "postDate": "2024-11-23",
+        "category": "Government Job",
+        "experience": "Varies by position",
+        "qualification": "BE/B.Tech/M.Tech/MCA/Other",
+        "skills": "IT, Engineering, Management, Scientific Research, Communication",
+        "jobDescription": [
+          "Post Name and Vacancies:",
+          "- Scientist B: 22 (Closing Date: 01/12/2024)",
+          "- Project Engineers/Project Manager/Program Manager/etc.: 91 (CDAC Bengaluru, Closing Date: 05/12/2024)",
+          "- Various Roles: 125 (CDAC Chennai, Closing Date: 05/12/2024)",
+          "- Other locations include CDAC Hyderabad (99), Noida (199), Pune (248), and more.",
+    
+          "Eligibility Criteria:",
+          "- Project Associate: BE/B.Tech/Equivalent or ME/M.Tech/Equivalent or Post Graduate Degree in Science/Computer Application.",
+          "- Project Engineer/PS&O Executive: BE/B.Tech/ME/M.Tech/PhD in relevant disciplines with minimum 60% marks.",
+          "- Project Manager/Program Manager: Minimum 9 years of post-qualification experience with relevant qualifications.",
+          "- Senior Project Engineer/Module Lead: Minimum 4 years of post-qualification experience.",
+    
+          "Selection Process:",
+          "- Written Test",
+          "- Interview",
+          "- Group Discussion (for some roles)",
+    
+          "Pay Scales:",
+          "- Project Associate: ₹3.6 LPA",
+          "- Project Engineer/PS&O Executive: ₹4.49 LPA",
+          "- Project Manager: ₹12.63 - ₹22.9 LPA",
+          "- Senior Project Engineer/Module Lead: ₹8.49 - ₹14 LPA",
+          "- Scientist B: ₹18.34 LPA (approx.)",
+    
+          "Application Fee:",
+          "- ₹500 for General/OBC category.",
+          "- No fee for SC/ST/PwD and Female candidates.",
+    
+          "How to Apply:",
+          "- Eligible candidates must apply online through the CDAC Careers Portal (careers.cdac.in)."
+          
+          
+        ],
+        "Documents":[ "Recent Passport Size Photograph", 
+        "Resume/CV", 
+        "relevant certificates"
+        ],
+        "applicationFee": [
+          "₹500 for General/OBC candidates.",
+          "No fee for SC/ST/PwD and Female candidates."
+        ],
+        "importantDate": [
+          "- Closing Date for Online Applications: 05/12/2024."
+        ],
+        "jobLink": "https://careers.cdac.in/",
+        "notification": "https://careers.cdac.in/advt-details/CORP-28102024-REK85",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "58",
+        "companyImage": "/images/ipa.png",
+        "companyName": "Indian Ports Association",
+        "jobRole": "Executive Level ",
+        "vacancy": "33",
+        "postDate": "2024-11-20",
+        "category": "Government Job",
+        "experience": "Varies by position",
+        "qualification": "B.E./B.Tech in Civil Engineering",
+        "skills": "Civil Engineering",
+        "jobDescription": [
+          "Post Name and Vacancies:",
+          "- Assistant Executive Engineer (Civil): 25",
+          "- Junior Executive (Civil): 08",
+          "Age Limit:",
+          "- Maximum 30 years as on the last date of application.",
+          "- Age relaxation: 5 years for SC/ST, 3 years for OBC (NCL), 10 years for PwBD.",
+          "Salary:",
+          "- Assistant Executive Engineer (Civil): ₹50,000 - ₹1,60,000/-",
+          "- Junior Executive (Civil): ₹30,000 - ₹1,20,000/-",
+          "Eligibility Criteria:",
+          "- Assistant Executive Engineer (Civil): B.E./B.Tech in Civil Engineering with 2 years' experience.",
+          "- Junior Executive (Civil): 1st Class B.E./B.Tech in Civil Engineering (Freshers can apply).",
+          "Selection Process:",
+          "- Computer Based Test",
+          "- Interview",
+          "- Documents Verification",
+          "Exam Pattern:",
+          "- Technical Questions (Civil Engineering): 50 questions, 100 marks",
+          "- Test of Reasoning: 15 questions, 15 marks",
+          "- Quantitative Aptitude: 15 questions, 15 marks",
+          "- General Awareness: 15 questions, 15 marks",
+          "- English Language: 15 questions, 15 marks"
+        ],
+        "applicationFee": [
+          "General (UR): ₹400",
+          "OBC / EWS: ₹300",
+          "SC / ST / Women: ₹200",
+          "Ex-Servicemen / PwBD: Nil"
+        ],
+        "documents": [
+          "Apply online through the Indian Ports Association official website.",
+          "Required documents to upload:",
+          "- Recent Photograph",
+          "- Signature",
+          "- Proof of Date of Birth",
+          "- Educational Qualifications",
+          "- Experience Certificates",
+          "- Caste Certificate (if applicable)"
+        ],
+        "importantDates": [
+          "Opening date for Online Registration & Fee Payment: 20/11/2024",
+          "Last date for Online Registration: 11/12/2024",
+          "Last date for Fee Payment: 11/12/2024"
+        ],
+        "jobLink": "https://cdn.digialm.com/EForms/configuredHtml/1258/91332/Index.html",
+        "notification": "https://cdn.digialm.com//per/g03/pub/726/EForms/image/ImageDocUpload/12/1117210776631949751198.pdf",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "59",
+        "companyImage": "/images/sidbi.png",
+        "companyName": "Small Industries Development Bank of India (SIDBI)",
+        "jobRole": "Assistant Manager Grade A and Grade B – General and Specialist Stream",
+        "vacancy": "72",
+        "postDate": "2024-11-23",
+        "category": "Government Job",
+        "experience": "Varies by position",
+        "qualification": "Bachelor's Degree / Post Graduate / CA / MBA / CFA",
+        "skills": "Commerce, Economics, Mathematics, Business Administration, Engineering, Law, IT, Management",
+        "jobDescription": [
+          "Post Name and Vacancies:",
+          "- Assistant Manager Grade A – General Stream: 50",
+          "- Assistant Manager Grade B – General: 10",
+          "- Assistant Manager Grade B – Legal: 6",
+          "- Assistant Manager Grade B – IT: 6",
+          "Selection Process:",
+          "- Phase I: Online Screening Exam (200 Marks)",
+          "- Phase II: Online Exam (2 Papers, 200 Marks)",
+          "- Phase III: Interview (100 Marks)",
+          "Pay Scales:",
+          "- Grade A: ₹44,500 – ₹89,150",
+          "- Grade B: ₹55,200 – ₹99,750",
+          "Eligibility Criteria:",
+          "- Grade A: Graduation in Commerce/Economics/Mathematics/Business Administration/Engineering or CA, MBA, CFA.",
+          "- Grade B: Graduation or Post Graduation in any discipline or equivalent technical qualification. Legal candidates must have a law degree and be enrolled as an advocate."
+        ],
+        "applicationFee": [
+          "General/OBC: ₹1100",
+          "SC/ST/PwBD: ₹175",
+          "No fee for Staff"
+        ],
+        "documents": [
+          "Apply online through SIDBI's Online Application Portal.",
+          "Required documents to upload:",
+          "- Passport Size Photograph",
+          "- Signature",
+          "- Left Thumb Impression",
+          "- Handwritten Declaration",
+          "- Educational Qualifications",
+          "- Experience Certificates",
+          "- Caste/Category Certificates (if applicable)"
+        ],
+        "importantDates": [
+          "- Start Date: 08/11/2024",
+          "- Closing Date: 02/12/2024",
+          "- Phase I Exam Date: 22/12/2024",
+          "- Phase II Exam Date: 19/01/2025",
+          "- Interview Schedule: February 2025"
+        ],
+        "jobLink": "https://ibpsonline.ibps.in/sidbioct24/",
+        "notification": "https://drive.google.com/file/d/1ZdfLbvtByoGVrV3GA6eKN48tYdrIuAzX/edit",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "60",
+        "companyImage": "/images/aaiclas.png",
+        "companyName": "AAICLAS",
+        "jobRole": "Security Screener",
+        "vacancy": "274",
+        "postDate": "2024-11-25",
+        "category": "Government Job",
+        "experience": "Fresher",
+        "qualification": "Bachelor's Degree",
+        "skills": "Ability to read/speak English, Hindi, and/or local language",
+        "jobDescription": [
+          "Post Name and Vacancies:",
+          "- Security Screeners: 274",
+          "Job Profile:",
+          "- Screening cargo and baggage at airports using technical methods.",
+          "Place of Posting:",
+          "- Goa, Leh, Port Blair, Surat, Vijayawada.",
+          "Age Limit:",
+          "- Not more than 27 years as on 1st November 2024.",
+          "- Age relaxation: 05 years for SC/ST/Ex-Servicemen and 03 years for OBC (NCL).",
+          "Salary:",
+          "- First Year: ₹30,000 per month",
+          "- Second Year: ₹32,000 per month",
+          "- Third Year: ₹34,000 per month",
+          "Selection Process:",
+          "- Shortlisted candidates will be called for Personal Interaction.",
+          "Eligibility Criteria:",
+          "Graduation (Bachelor's Degree) with 60% marks (General) / 55% (SC/ST)",
+          "- Graduation (Bachelor's Degree) from any recognized institution.",
+          "- Ability to speak English, Hindi, and/or local language."
+        ],
+        "applicationFee": [
+          "General/EWS/OBC: ₹854",
+          "SC/ST/PwBD/Ex-Servicemen: ₹354"
+        ],
+        "documents": [
+          "Apply online through the AAICLAS official website.",
+          "Required documents to upload:",
+          "- Passport Size Photograph",
+          "- Candidate’s Signature",
+          "- Proof of Date of Birth",
+          "- AADHAR Card",
+          "- Educational Qualifications",
+          "- Mark Sheets and Experience Certificates"
+        ],
+        "importantDates": [
+          "- Start Date: 10/11/2024",
+          "- Closing Date: 10/12/2024 at 17:00 hrs"
+        ],
+        "jobLink": "https://aaiclas.aero/careeruser/login",
+        "notification": "https://aaiclas.aero/uploads/career/AAICLAS6211732127403.pdf",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "61",
+        "companyImage": "/images/bisagn.png",
+        "companyName": "BISAG-N",
+        "jobRole": "Internship for Graduates",
+        "vacancy": "200",
+        "postDate": "2024-11-25",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.Tech(CS/IT/EC/EE/Civil/E&I)",
+        "skills": "Java, PHP, Python, UI Design (React), Testing, Data Engineering, Business Analysis, AI, ML, IoT, Cyber Security, Cloud, DevOps, Studio Operations, Content Development",
+        "jobDescription": [
+          "BISAG-N Internship Scheme 2024",
+          "Area of Internship Slots:",
+          "- Software Development (Java/ PHP/ Python/ UI Designer- REACT/ Tester/ Data Engineer /DB Administrator/ Business Analyst etc.): 90",
+          "- Artificial Intelligence / Machine Learning / IoT: 50",
+          "- Cyber Security: 20",
+          "- Cloud, DevOps & Automation: 20",
+          "- Studio Operations & Content Development: 20",
+          "Stipend: ₹15,000/- per month, subject to satisfactory performance",
+          "Place of Internship: Gujarat, New Delhi",
+          "Eligibility Criteria:",
+          "B.E/B.Tech Engineering Graduate in CS/IT/EC/EE/Civil/E&I with at least 65% marks.",
+          "Only candidates who have passed their qualifying degree in 2024 or 2023 are eligible."
+        ],
+        "applicationFee": [
+          "No fee for any one can apply"
+        ],
+        "documents": [
+          "Apply online through BISAG-N Online Application Portal lbsn.ncog.gov.in.",
+          "Upload the following documents:",
+          "- Passport Size Photograph",
+          "- Educational Qualifications",
+          "- 10th and 12th Marksheets",
+          "- Degree Certificate",
+          "- Any other supporting documents"
+        ],
+        "importantDates": [
+          "- Last Date for Application: 02/12/2024"
+        ],
+        "jobLink": "https://lbsn.ncog.gov.in/bisag_training/home/internship",
+        "notification": "https://lbsn.ncog.gov.in/bisag_training/assets/uploaded_doc/Notification%20Technical%20Internship.pdf",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "62",
+        "companyImage": "/images/microsoft.png",
+        "companyName": "Microsoft",
+        "jobRole": "Applied Science Internship",
+        
+        "postDate": "2024-11-25",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "Bachelor(CS/IT/EC/EE)",
+        "skills": "Machine Learning, Data Analysis, Research, Machine Intelligence, Programming",
+        "jobDescription": [
+          "Responsibilities:",
+          "- Analyze and improve performance of advanced algorithms on large-scale datasets.",
+          "- Design experimental processes for iteration and optimization in Machine Learning (ML).",
+          "- Implement prototypes of scalable AI systems.",
+          "- Assist in data preparation for analysis and machine learning tasks.",
+          "- Support the development of datasets for modeling and scaling feature ideation."
+        ],
+        
+        "documents": [
+          "Application through Microsoft Careers site.",
+          "Required documents to upload:",
+          "- Updated Resume"
+          
+        ],
+        
+        "jobLink": "https://jobs.careers.microsoft.com/global/en/job/1784300/Applied-Science-Internship-Opportunities",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "63",
+        "companyImage": "/images/motorola.png",
+        "companyName": "Motorola Solutions",
+        "jobRole": "IT Cloud Operations Intern",
+        
+        "postDate": "2024-11-23",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.E/B.Tech(CS and IT)",
+        "skills": "CI/CD, Git, Docker, Kubernetes, Nagios, Grafana, AWS CloudWatch, Scripting (Bash, Python, Perl), Jenkins, Ansible",
+        "jobDescription": [
+          "Assist in setting up and maintaining CI/CD pipelines.",
+          "Manage version control systems like Git and coordinate code merges and deployments.",
+          "Work with containerization and orchestration tools (e.g., Docker, Kubernetes).",
+          "Monitor and report on infrastructure using tools like Nagios, Grafana, or AWS CloudWatch.",
+          "Develop automation scripts and tools to streamline operational tasks.",
+          "Troubleshoot and resolve build or deployment issues.",
+          "Learn and follow best practices in system administration, security, and code deployment.",
+          "Create and maintain system documentation and standard operating procedures.",
+          "Evaluate new technologies and contribute to process improvement.",
+          "Support the team in managing cloud and on-premises infrastructure."
+        ],
+        
+        "documents": [
+          "Resume",
+          "- Cover Letter (optional)"
+          
+        ],
+        
+        "jobLink": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Bangalore-offsite-India/IT-Cloud-Operations-Intern_R51989",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "64",
+        "companyImage": "/images/ciena.png",
+        "companyName": "Ciena",
+        "jobRole": "System Software Engineer Intern",
+        
+        "postDate": "2024-11-23",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "MCA or M.Tech(ES/CS/IT)",
+        "skills": "Linux, Python, C, Automation Scripting, Debugging, Network Topologies, GIT, Jenkins, Docker Containers, TCP/IP Stack, VLANs, Memory Management",
+        "jobDescription": [
+          "Post Name and Duration:",
+          "- System Software Engineer Intern (Jan 2025 – June 2025)",
+          "Responsibilities:",
+          "- Design, develop, test, document, and analyze modules or features within new or upgraded software systems and products.",
+          "- Implement based on project plans and priorities.",
+          "- Work on Next Generation Packet Optical Transport and Routing Solutions.",
+          "- Contribute to Hybrid Layer 0/1/2 switching (OTN/Packet) and Data Driven Open Interfaces (YANG/NETCONF/gRPC/REST).",
+          "- Enable solutions for Wireless, 5G, SDN, NFV, and virtualized networks."
+        ],
+        
+        "documents": [
+          "Resume",
+          "- Cover Letter (optional)"
+        ],
+       
+        "jobLink": "https://ciena.wd5.myworkdayjobs.com/en-US/Careers/job/India--Gurgaon--Unitech--Plot-14/System-Software-Engineer-Intern_R025918",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/meesho-updates"
+      },
+      {
+        "id": "65",
+        "companyImage": "/images/micron.png",
+        "companyName": "Micron Technology",
+        "jobRole": "Intern - Business Analyst",
+        
+        "postDate": "2024-11-23",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "Master’s(CS OR CE)",
+        "skills": "Analytical Thinking, Problem Solving, Microsoft Office, Enterprise Applications (Teamcenter, SAP, Salesforce, Power BI), SharePoint, Data Governance, Data Management",
+        "jobDescription": [
+          "Roles & Responsibilities:",
+          "- Support the PLM and SOR process by managing product schedules in Teamcenter.",
+          "- Maintain master data records to ensure accuracy and validate data entries.",
+          "- Troubleshoot system processes and address ongoing issues.",
+          "- Create documentation for required solutions and processes.",
+          "- Participate in user acceptance testing for system enhancements.",
+          "- Act as a communication liaison between business and technical support teams.",
+          "- Contribute to training and development of user community.",
+          "- Collaborate with cross-functional teams to provide business solutions.",
+          "- Be a Subject Matter Expert (SME) in data assignment and management systems."
+        ],
+        
+        "documents": [
+          "Apply online through the Micron Technology careers page.",
+          "Required documents to upload:",
+          "- Resume/CV",
+          
+          "- Any Supporting Documents"
+        ],
+        
+        "jobLink": "https://careers.micron.com/careers/job/25139459?utm_source=indeed&domain=micron.com",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "66",
+        "companyImage": "/images/sas.png",
+        "companyName": "SAS",
+        "jobRole": "Technical Intern",
+        
+        "postDate": "2024-11-25",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.E/B.Tech(CS and IT)",
+        "skills": "Containers, Cloud computing concepts (Kubernetes, AWS, Google, Azure), Operating systems, Server infrastructure, Storage infrastructure, Automation tools (Python, PowerShell, etc.), Leadership abilities",
+        "jobDescription": [
+          "What you’ll do:",
+          "- Develop and implement automation scripts to streamline repetitive tasks in the benchmark & sizing process and improve efficiency.",
+          "- Help support a customer Proof of Concept.",
+          "- Support the creation and maintenance of Sizing Guides and related artifacts.",
+          "Pursuing/Completed Degree in Computer Science, IT, Engineering, or related fields",
+          "- Document processes, tools, and methodologies to improve team workflows."
+        ],
+        
+        "documents": [
+          "Apply through the SAS career website.",
+          "Ensure a professional resume is uploaded."
+        ],
+        
+        "jobLink": "https://global-sas.icims.com/jobs/38047/job?utm_source=indeed_integration&iis=Job+Board&iisn=Indeed&indeed-apply-token=73a2d2b2a8d6d5c0a62696875eaebd669103652d3f0c2cd5445d3e66b1592b0f&mobile=false&width=1200&height=500&bga=true&needsRedirect=false&jan1offset=330&jun1offset=330",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "67",
+        "companyImage": "/images/rockwell-automation.png",
+        "companyName": "Rockwell Automation",
+        "jobRole": "Software Engineering Intern",
+        
+        "postDate": "2024-11-25",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.E/B.Tech(CS,IT and ES)",
+        "skills": "C++, C#, Python, Angular, Node, Visual Studio",
+        "jobDescription": [
+          "Principal Responsibilities:",
+          "- Learn and understand Software Development Life Cycle (SDLC) for a multi-national product company.",
+          "- Develop software components to support new devices within RA’s software ecosystem.",
+          "- Participate in day-to-day software development activities in a global and diverse team.",
+          "Eligibility Criteria:",
+          "- 8+ CGPA at graduation level academics.",
+          "Bachelor’s Degree in Engineering in Computer Science, IT, Electronics, or similar fields with 8+ CGPA",
+          "- First Class with Distinction at 10th and 10+2 levels.",
+          "- Hands-on experience with object-oriented languages like C++, C#, Python, or creating web components using Angular and Node.",
+          "Preferred Skills:",
+          "- Experience in software programming through any academic project.",
+          "- Experience working with teams developing Robotics or Control Systems."
+        ],
+        
+        "documents": [
+          "Apply online through the Rockwell Automation official website.",
+          "Required documents to upload:",
+          "- Updated Resume",
+         
+          "- Related Certifications (if any)"
+        ],
+        
+        "jobLink": "https://rockwellautomation.wd1.myworkdayjobs.com/en-US/External_Rockwell_Automation/job/Pune-India/Software-Engineering--Intern_R24-5938",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "68",
+        "companyImage": "/images/nttdata.png",
+        "companyName": "NTT DATA",
+        "jobRole": "Intern",
+        
+        "postDate": "2024-11-26",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.E/B.Tech(CS,IT)",
+        "skills": "Attention to detail, communication, problem-solving, planning, time management, and knowledge in specific areas of expertise",
+        "jobDescription": [
+          "Key Responsibilities:",
+          "- Gain knowledge and experience in specialization or function.",
+          "- Acquire practical experience and knowledge of services offered.",
+          "- Stay updated with industry developments.",
+          "- Perform administrative tasks such as coordinating meetings, taking minutes, and maintaining records.",
+          "- Assist with report preparation, system data reviews, and error resolution.",
+          "- Support clients on low-complexity matters and maintain query logs.",
+          "- Contribute to research, propose ideas, and develop presentations."
+        ],
+        
+        "documents": [
+          "Required documents (if applicable) will be mentioned during the application process.",
+          "- Resume/CV"
+        ],
+        
+        "jobLink": "https://careers.services.global.ntt/global/en/job/NTT1GLOBALR121946EXTERNALENGLOBAL/Intern?utm_source=indeed&utm_medium=phenom-feeds",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "69",
+        "companyImage": "/images/poshmark.png",
+        "companyName": "Poshmark",
+        "jobRole": "Android Intern",
+        
+        "postDate": "2024-11-26",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "B.E,B.Tech(CS/IT)",
+        "skills": "Android Studio, Kotlin, Java, RESTful APIs, Git, Android lifecycle management, MVVM, MVC, MVP, Dependency Injection (Dagger), Kotlin Coroutines",
+        "jobDescription": [
+          "Develop product features that delight the Poshmark community.",
+          "Work with the product and design team to understand and iterate on feature requirements.",
+          "Build development stack, programming and software design skills.",
+          "Write high-quality and maintainable code and test cases.",
+          "Learn best practices and design patterns for software development.",
+          "Strong foundation in computer science principles, data structures, algorithms, and mobile software design",
+          "Basic experience with Android development using Kotlin and Java"
+        ],
+        
+        "documents": [
+          "-Update Resume/CV"
+        ],
+
+        "jobLink": "https://poshmark.wd5.myworkdayjobs.com/en-US/Poshmark_Careers/job/Chennai-Tamil-Nadu-India/Android-Intern_R-200172",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "70",
+        "companyImage": "/images/volvo.png",
+        "companyName": "Volvo Group",
+        "jobRole": "Intern OW L1",
+        
+        "postDate": "2024-11-26",
+        "category": "Internship",
+        "experience": "Fresher",
+        "qualification": "Electrical/Electronic/Mechanical",
+        "skills": "Good English speaking and writing skills, MS Office proficiency, teamwork skills",
+        "jobDescription": [
+          "Support Service Engineering in daily project delivery work, including:",
+          "- Vehicle system and component function description editing",
+          "- Electrical component measuring",
+          "- Wiring diagram editing",
+          "- Other document work in service manual or other system",
+          "Education background in Electrical/Electronic/Mechanical/Auto/English preferred",
+          "Parts engineering delivery work"
+        ],
+        
+        "documents": [
+          "We value your data privacy and do not accept applications via mail."
+        ],
+        
+        "jobLink": "https://jobs.volvogroup.com/job/Ji'nan-Intern-OW-L1-%2800501263%29-250102/1137511555/?feedId=361555",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      
+      
+      
+
+      
+      
+
+      {
+        "id": "71",
+        "companyImage": "/images/meesho.png",
+        "companyName": "Meesho",
+        "jobRole": "Business Analyst",
+        "vacancy": "Not specified",
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "Fresher",
+        "qualification": "B.Tech/M.Tech(2024 graduates)",
+        "skills": "Advanced Excel, Advanced SQL, Basic statistics, Python (preferred)",
+        "jobDescription": [
+          "Responsibilities:",
+          "- Create algorithms for optimizing demand and supply data.",
+          "- Conduct data-driven analysis and solution-building.",
+          "- Provide insights to management for strategic planning.",
+          "- Analyze metrics to discover root causes of process defects.",
+          "- Support business development with efficient designs and solution processes.",
+          "- Research and implement cost reduction opportunities.",
+          "- Determine efficient utilization of resources."
+        ],
+        
+        "documents": [
+          "Apply online through the Meesho Careers website.",
+          "Required documents to upload:",
+          "- Resume"
+          
+        ],
+        
+        "jobLink": "https://jobs.lever.co/meesho/a33be922-bd1f-41de-b865-6198f1f50ac6/apply",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/meesho-updates"
+      },
+      {
+        "id": "72",
+        "companyImage": "/images/barclays.png",
+        "companyName": "Barclays",
+        "jobRole": "Graduate Programme 2025",
+        
+        "postDate": "2024-11-22",
+        "category": "Private Job",
+        "experience": "Fresher",
+        "qualification": "Bachelor's Degree(CS/IT)",
+        "skills": "Software Development, Secure Coding Practices, Unit Testing, Collaboration, Problem-Solving",
+        "jobDescription": [
+          "Purpose of the Role:",
+          "- To design, develop and improve software, utilising various engineering methodologies, that provides business, platform, and technology capabilities for customers and colleagues.",
+          "Accountabilities:",
+          "- Development and delivery of high-quality software solutions using programming languages, frameworks, and tools.",
+          "- Cross-functional collaboration with product managers, designers, and engineers to define software requirements and solution strategies.",
+          "- Adherence to secure coding practices and implementation of effective unit testing.",
+          "- Participation in code reviews and knowledge sharing.",
+          "- Development of scalable, maintainable, and optimized code."
+        ],
+       
+        "documents": [
+          "Apply online through Barclays official website.",
+          "Required documents to upload:",
+          "- Resume",
+          "- Cover Letter",
+          "- Proof of Qualifications",
+          "- Other Supporting Documents (if applicable)"
+        ],
+        
+        "jobLink": "https://search.jobs.barclays/job/-/-/13015/73381614864",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0039VatrgGP2Jl8NdO5KQh0d"
+      },
+      {
+        "id": "73",
+        "companyImage": "/images/ey.png",
+        "companyName": "EY (Ernst & Young)",
+        "jobRole": "Data Analytics",
+        
+        "postDate": "2024-11-21",
+        "category": "Private Job",
+        "experience": "0–1 year",
+        "qualification": "B.E/B.Tech(CS and IT)/CA,MBA",
+        "skills": "Data analysis, Team leadership, Communication, Problem-solving, Adaptability, ERP systems, EY Helix tools",
+        "jobDescription": [
+          "Responsibilities:",
+          "- Analyze large volumes of data and define strategies for analytical work related to audits.",
+          "- Provide team leadership fostering an open and inclusive work environment.",
+          "- Work closely with Onshore Audit and Analytics teams for data profiling, transformation, and analytics delivery.",
+          "- Extract data from multiple ERP sources and ensure data structure requirements are met.",
+          "- Interpret data using industry knowledge to improve performance.",
+          "- Acquire expertise in EY's suite of Helix tools.",
+          "- Meet tight delivery timelines with a strong focus on quality.",
+        
+          "requirements:", 
+          "B.E/B.Tech (any stream excluding CS and IT), ACCA/CA (fully or partially qualified), MBA Finance",
+          "Freshers with 0–1 year of experience.",
+          "Excellent written and oral communication skills, presentation, and soft skills.",
+          "Adaptability to change and quick learning ability.",
+          "Problem-solving skills and high standards of integrity and confidentiality.",
+          "Willingness to work in different time zones and under tight timelines.",
+        
+          "idealCandidate:",
+          "Self-motivated and enthusiastic to learn.",
+          "Strong commitment to team success and supporting team goals.",
+          "Effective communication skills with clarity and confidence.",
+          "Proactive in addressing issues to ensure timely delivery.",
+          "Maintains data quality and security.",
+        
+          "salary:",
+          "5L - 9L / year"
+        ],
+        "documents": [
+          "Resume",
+          "Relevant qualifications and certifications",
+          "Proof of identity and address"
+        ],
+        "jobLink": "https://careers.ey.com/ey/job/Noida-Data-Analytics-Contractor-Staff-UP-201301/1144212601/?feedId=338701&utm_source=Indeed&utm_campaign=EY_indeed",
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "74",
+        "companyImage": "/images/assa-abloy.png",
+        "companyName": "ASSA ABLOY",
+        "jobRole": "Associate Web Developer",
+        
+        "postDate": "2024-11-25",
+        "category": "Private Job",
+        "experience": "0-1 year",
+        "qualification": "Bachelor’s degree(CS/IT)",
+        "skills": "C#/.NET, React.js, MVC, SQL Server, Angular, Blazor, Bootstrap, Azure DevOps, Agile methodologies",
+        "jobDescription": [
+          "Understanding business requirements and translating them into specific software requirements",
+          "Assist in developing specifications for database improvements",
+          "Designing and developing multi-featured, intuitive web applications, including web page design and user interfaces, form management, and underlying technical solutions",
+          "Develop programming to interface with other applications",
+          "Develop and assist with technical documentation",
+          "Work in a team environment to meet timelines for project implementations",
+          "Assist in thorough testing of software applications",
+          "Experience with managing large data sets, optimization of queries, data table displays, and data exports (CSV, PDF, etc.)",
+          "Provide programming/IT support for customer experience initiatives as needed",
+
+          "salary:",
+          "6L -11L / year"
+        ],
+        
+        "documents": [
+          "Submit your application online through the ASSA ABLOY careers page.",
+          "Required documents to upload:",
+          "- Resume/CV",
+          "- Cover Letter (optional)",
+          
+          "- Experience Certificates (if applicable)"
+          
+        ],
+        
+        "jobLink": "https://assaabloy.jobs2web.com/job/Chennai-Associate-Web-Developer-600-032/1144953201/",
+        
+        "telegramLink":"https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "75",
+        "companyImage": "/images/rockwell.png",
+        "companyName": "Rockwell Automation",
+        "jobRole": "Graduate Trainee",
+        
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "Freshers",
+        "qualification": "Bachelor's Degree",
+        "skills": "IT technologies, systems, methodologies, troubleshooting, and project execution",
+        "jobDescription": [
+          "Technical Learning and Development:",
+          "- Participate in a structured training programme to acquire experience in IT technologies, systems, and methodologies.",
+          "- Collaborate with senior IT professionals to gain insights into real-world IT operations, troubleshooting, and project execution.",
+          "Project Support and Collaboration:",
+          "- Help enhance IT applications and infrastructure.",
+          "- Collaborate with teams on IT projects, contributing your technical expertise to achieve project goals.",
+          "Quality Assurance and Compliance:",
+          "- Follow IT best practices, quality assurance processes, and security protocols to ensure the reliability and security of IT systems.",
+          "- Help maintain compliance with industry standards and regulations.",
+        
+          "benefits:", 
+          "The ability to collaborate and learn from colleagues in a global organization.",
+          "Creative working environment paired with great compensation, benefits, and a supportive atmosphere.",
+          "Hybrid work-from-home and on-site at a Rockwell Automation facility.",
+          "Corporate Social Responsibility opportunities.",
+          "Support from a 24/7 employee assistance program.",
+        
+          "location: Pune, India",
+          "workType: Hybrid",
+          "reportingTo: Technical Lead",
+          "salaryRange: ₹4L – ₹6L/yr",
+          "applicationFee: No application fee",
+          "documents:",
+          "Resume"
+          
+        ],
+        
+        "jobLink": "https://jobs.rockwellautomation.com/job/21308442/graduate-trainee-engineer-pune-in/",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "76",
+        "companyImage": "/images/eurofins.png",
+        "companyName": "Eurofins",
+        "jobRole": "Associate Software Engineer (BA)",
+        
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "0-1 years",
+        "qualification": "B.Tech - CSE/MCA",
+        "skills": "Business analysis, requirements gathering, documentation, Agile methodologies, Azure DevOps, analytical and problem-solving skills, wireframes, and process modeling",
+        "jobDescription": [
+          "Understand high-level objectives of business needs and expectations.",
+          "Gather customer requirements through workshops, questionnaires, and storyboards.",
+          "Document requirements in standard formats such as use cases and flowcharts.",
+          "Work with stakeholders and project teams to prioritize requirements.",
+          "Ensure implementation of high-quality standards and practices.",
+          "Prepare and perform functional tests to meet acceptance criteria.",
+          "Produce and maintain detailed scope and requirements documentation.",
+          "Create wireframes, mock-ups, and flow diagrams for visualization.",
+          "Collaborate with global teams and contribute to troubleshooting and testing."
+        ],
+        
+        "documents": [
+          "Resume",
+          "Educational certificates",
+          "Work experience proof (if applicable)"
+        ],
+        
+        "jobLink": "https://jobs.smartrecruiters.com/Eurofins/744000028306935-associate-software-engineer-ba-",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "77",
+        "companyImage": "/images/ntt.png",
+        "companyName": "NTT DATA",
+        "jobRole": "Business Support Associate",
+        
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "Fresher",
+        "qualification": "Graduates/B.Tech",
+        "skills": "Mathematical knowledge, Communication, Critical thinking, Python, D3, JavaScript, HTML5, SQL, PowerBi, Tableau, Azure Cognitive Services, Power Platforms",
+        "jobDescription": [
+          "Understand, gather, and prepare requirements for the business.",
+          "Collaborate with internal and external teams to understand customer requirements.",
+          "Ability to elaborate on the details of a project.",
+          "Collaborate with Automation Engineers, Data Analysts, and Business Intelligence Analysts to execute deliverables.",
+          "Must possess technical writing, decision-making, and problem-solving skills.",
+          "Strong command over the English language.",
+          "Flexibility with working hours, including UK or US shifts."
+        ],
+        
+        "documents": [
+          "- Resume/CV"
+        ],
+        
+        "jobLink": "https://nttdata.eightfold.ai/careers?pid=563327919225983&domain=nttdata.com&sort_by=relevance&ittk=VV6MMOJZVU",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "78",
+        "companyImage": "/images/msci.png",
+        "companyName": "MSCI Inc",
+        "jobRole": "Java and SQL Developer",
+        
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "Fresher",
+        "qualification": "Bachelor's Degree(CS/IT)",
+        "skills": "Core Java, Multithreading, Spring Framework, SQL (SQL Server), Cloud Technologies (GCP preferred)",
+        "jobDescription": [
+          "Your Team Responsibilities:",
+          "- Develop and maintain the Real Estate Analytics Calculator.",
+          "- Collaborate with cross-functional teams to ensure high-quality implementation of solutions.",
+          "- Design and implement changes to existing software to support new capabilities.",
+          "- Identify unit and component test scenarios and verify software components.",
+          "- Analyze software problems and recommend solutions.",
+          "- Work as part of an Agile team to implement project capabilities.",
+          "- Lead and coach team members occasionally.",
+          "- Contribute to continuous improvement of team processes.",
+          "Your Key Responsibilities:",
+          "- Expertise in Core Java, Multithreading, and Spring Framework.",
+          "- Knowledge in developing SQL (SQL Server).",
+          "- Experience with distributed and horizontally scalable systems.",
+          "- Excellent written and verbal communication skills.",
+          "- Strong organizational skills with task prioritization.",
+          "salaryRange: ₹4L – ₹8L/year",
+          "location: Mumbai, India"
+        ],
+        
+        "documents": [
+          "Updated CV showcasing relevant skills and experience.",
+          "Proof of educational qualifications.",
+          "Relevant certifications (if any)."
+        ],
+        
+        
+        "jobLink": "https://careers.msci.com/job/2024-2040",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c" 
+      },
+      {
+        "id": "79",
+        "companyImage": "/images/mastercard.png",
+        "companyName": "Mastercard",
+        "jobRole": "Associate Specialist",
+
+        "postDate": "2024-11-25",
+        "category": "Private Job",
+        "experience": "1 to 2 years",
+        "qualification": "B.E/B.Tech(CS and IT)/CA,MBA",
+        "skills": "Information Technology, network technology, electronic payment processes, project management, customer interaction, communication skills",
+        "jobDescription": [
+          "Our Purpose: Mastercard powers economies and empowers people in 200+ countries and territories worldwide.",
+          "Responsibilities:",
+          "- Act as a central point of contact for customers during project execution.",
+          "- Assess and document customer needs and impacts on processing systems.",
+          "- Plan and execute customer processing implementation projects.",
+          "- Handle multiple customer projects in parallel.",
+          "Key Requirements:",
+          "- Knowledge of electronic payment processes such as authorization, clearing, and settlement.",
+          "- Excellent verbal and written communication skills.",
+          "- Ability to work in matrixed organizations and manage change in technical environments.",
+          "- Open to working in night shifts (CST timings)."
+        ],
+        
+        "documents": [
+          "Required documents to apply:",
+          "- Updated Resume",
+          "- Proof of Identity (e.g., AADHAR Card, Passport)",
+          "- Educational Qualifications and Certifications",
+          "- Professional References (if applicable)"
+        ],
+        
+        "jobLink": "https://mastercard.wd1.myworkdayjobs.com/en-US/CorporateCareers/job/Pune-India/Associate-Specialist--Implementation_R-234349",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "80",
+        "companyImage": "/images/ericsson.png",
+        "companyName": "Ericsson",
+        "jobRole": "Linux Administrator",
+        
+        "postDate": "2024-11-23",
+        "category": "Private Job",
+        "experience": "0-2 Year",
+        "qualification": "BE/B.Tech/M.Tech/MCA/Other",
+        "skills": "Linux, RedHat, Ansible, Grafana, Puppet, Git, PAM, Linux file systems, SUDO administration, LVM administration, OS backup and recovery, Google compute engine, Zabbix, Grafana/Prometheus, Terraform, Syslog",
+        "jobDescription": [
+          "Expertise in Linux in system administration & management.",
+          "Expertise in Puppet, git, and Ansible configuration and management tools.",
+          "Good problem-solving and analytical skills.",
+          "Red Hat Certified System Administrator (RHCSA/RHCE), Google Cloud Associate",
+          "Working knowledge of various tools, open-source technologies, and cloud services.",
+          "Good knowledge of PAM and Linux file systems.",
+          "Working knowledge of Safeguard Authentication Services.",
+          "SUDO administration, LVM administration, OS backup, recovery, and user administration.",
+          "Disk Management: Creating partitions & using LVM for dynamically extending and reducing partition sizes.",
+          "User Management: Creation of users and groups, setting up ACL, permissions, disk quota."
+        ],
+        
+        "documents": [
+          "Updated Resume",
+          "Professional Certifications (RHCSA/RHCE, GCP Associate)"
+        ],
+        
+        "jobLink": "https://jobs.ericsson.com/careers/job/563121762117732?domain=ericsson.com",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "81",
+        "companyImage": "/images/thomson-reuters.png",
+        "companyName": "Thomson Reuters",
+        "jobRole": "Associate Cloud Solutions Architect",
+        
+        "postDate": "2024-11-25",
+        "category": "Private Job",
+        "experience": "0-2 Year",
+        "qualification":"B.Tech - CSE/MCA", 
+        "skills": "Cloud architecture, problem-solving, teamwork, networking concepts, and infrastructure as code (IaC) tools.",
+        "jobDescription": [
+          "Assist in designing cloud architectures and solutions that are scalable, reliable, and secure.",
+          "Collaborate with technology peers and business partners to improve cloud architectures and services.",
+          "Provide support for cloud environments with a focus on security and scalability.",
+          "Adapt and learn new technologies and methodologies in a fast-paced environment.",
+          "Support the development of cloud-native applications.",
+          "Familiarity with AWS, Azure, or Google Cloud Platform. Experience with CI/CD pipelines and scripting languages (e.g., Python, PowerShell)."
+        ],
+        
+        "documents": [
+          "Resume",
+          "Relevant qualifications and certifications"
+        ],
+        
+        
+        "jobLink": "https://careers.thomsonreuters.com/us/en/job/THTTRUUSJREQ184553EXTERNALENUS/Associate-Cloud-Solutions-Architect?utm_source=indeed&utm_medium=phenom-feeds",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "91",
+        "companyImage": "/images/amazon.png",
+        "companyName": "Amazon Data Services, Inc.",
+        "jobRole": "Data Center Engineering Ops",
+        
+        "postDate": "2024-11-26",
+        "category": "Abroad Job",
+        "experience": "1-2 years ",
+        "qualification": "electrical or mechanical",
+        "skills": "Electrical, Mechanical, Fire/Life Safety, Facility Management, Microsoft Office (Excel, Word, PowerPoint)",
+        "jobDescription": [
+          "Responsibilities:",
+          "- Drive innovation while reducing operational costs in the facilities.",
+          "- Troubleshoot facility and rack-level events within internal SLAs.",
+          "- Perform rack installs, rack decommissioning, operational readings, and facility management.",
+          "- Manage contractors, sub-contractors, and vendors, ensuring adherence to established practices.",
+          "- Oversee maintenance and operations on all electrical, mechanical, and fire/life safety equipment.",
+          "- Adhere to safety procedures and perform basic support concepts such as ticketing systems, root cause analysis, and change management.",
+          "- Maintain data center infrastructure ensuring 99.999% uptime.",
+          "- Regularly walk, stoop, kneel, crouch, and lift up to 39 pounds unassisted.",
+          "Team Culture:",
+          "- AWS values diverse experiences and fosters an inclusive culture.",
+          "- Ongoing events like CORE and AmazeCon inspire continuous learning and embracing uniqueness.",
+          "1+ years of electrical or mechanical experience",
+          "Technical (Military/Trade School) training or 2+ years’ of equivalent experience in a relevant industry"
+        ],
+        
+        "documents": [
+          "Resume",
+          "Proof of technical training or equivalent experience",
+          "Other supporting documents (if applicable)"
+        ],
+        
+        "jobLink": "https://www.amazon.jobs/en/jobs/2840101/engineering-operations-technician-data-center-engg-ops",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+
+      },
+      {
+        "id": "92",
+        "companyImage": "/images/ibm.png",
+        "companyName": "IBM",
+        "jobRole": "Technology Sales Specialist- Data, AI and Automation",
+        
+        "postDate": "2024-11-25",
+        "category": "Abroad Job",
+        "experience": "Entry Level",
+        "qualification": "Bachelor Degree(CS/IT) ",
+        "skills": "Sales, Technology, AI, Automation, Communication, Presentation",
+        "jobDescription": [
+          "A Technology Sales Specialist role within Automation means working for a leader in AI-Powered products.",
+          "Envision helping clients create a world with less repetitive work and more innovative decisions.",
+          "Collaborate with clients to develop relationships, understand their needs, and show how IBM’s industry-leading automation solutions will solve their problems.",
+          "Apply solution-selling techniques to engage with decision-makers, assess and qualify opportunities, and establish enduring partnerships.",
+          "Take charge of the entire sales process, from handling RFI/RFP responses to meeting key performance indicators (KPIs).",
+          
+          "Location:Multiple Locations See All",
+
+          "Employment Type:Full-Time",
+          "Travel Required:Up to 60% or 3 days a week (home on weekends – based on project requirements)",
+          "Contract Type:Regular",
+          "Company:(0147) International Business Machines Corporation",
+
+
+          "Projected Minimum Salary:$109,000 per year",
+          "Projected Maximum Salary:$165,000 per year"
+
+          
+        ],
+        
+        "documents": [
+          
+          "- Resume",
+          "- Cover Letter"
+          
+        ],
+        
+        "jobLink": "https://careers.ibm.com/job/21316835/technology-sales-specialist-data-ai-and-automation-washington-dc/?codes=WEB_SEARCH_INDIA",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+      {
+        "id": "93",
+        "companyImage": "/images/cba.png",
+        "companyName": "CommBank Australia",
+        "jobRole": "Software Engineer",
+        
+        "postDate": "2024-11-26",
+        "category": "Abroad Job",
+        "experience": "Entry Level",
+        "qualification": "Bachelor Degree(CS/IT)",
+        "skills": "TypeScript, AWS, Node.js, REST APIs, Serverless Computing, DevOps, Microservices, Docker, Kubernetes, CI-CD, CloudWatch, Splunk",
+        "jobDescription": [
+          "Location: Australia",
+          "Time Type: Full time",
+          "Job Requisition ID: REQ223514",
+          "Job Role: Software Engineer ",
+          "We are a team of big thinkers, defining the future of digital banking. Together, we can deliver large-scale applications that impact millions of users.",
+          "Our Payments Software Engineering team resides in the Payments Service Utility with a mission to restore customer trust by transforming Payments services to 99.999% availability, greater agility, and reliability.",
+          "We use a wide range of technologies and frameworks, including TypeScript, AWS Lambda, API Gateway, SQS, SNS, DynamoDB, Node.js, and more.",
+          "You will work with a team of engineers and technology leaders to drive key technological simplifications such as Cloud and Payments Event-based architecture.",
+          "We require engineers with experience in building backend APIs in Node.js, serverless computing using AWS, and infrastructure as code using AWS CDK, Terraform, or CloudFormation."
+        ],
+        
+        "documents": [
+          "Apply online through the Digital Bank Australia official website.",
+          "Required documents to upload:",
+          
+          
+          "- Resume/CV",
+          "- References"
+        ],
+        
+        "jobLink": "https://cba.wd3.myworkdayjobs.com/en-US/CommBank_Careers/details/Software-Engineer_REQ223514?locationCountry=d903bb3fedad45039383f6de334ad4db",
+        
+        "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+      },
+
+      {
+      "id": "94",
+      "companyImage": "/images/google.png",
+      "companyName": "Google",
+      "jobRole": "Data Center, Cloud Region",
+      
+      "postDate": "2024-11-26",
+      "category": "Abroad Job",
+      "experience": "Entry Level",
+      "qualification": "Bachelor degree(CS/IT)",
+      "skills": "Linux, Troubleshooting, Server Hardware, Networking, Project Management, Leadership",
+      "jobDescription": [
+        "Location: Berlin, Germany",
+        "Minimum qualifications:",
+        "- Bachelor's degree or equivalent practical experience in a data center environment or similar technical domain.",
+        "- Experience with computer and server hardware, or troubleshooting/diagnosing.",
+        "- Experience with operating systems and networking infrastructures.",
+        "- Ability to travel internationally up to 20% of the time as required.",
+        "Preferred qualifications:",
+        "- Experience with Linux operating systems.",
+        "- Experience in project management and leadership.",
+        "- Experience in maintenance and monitoring of server systems.",
+        "- Ability to collaborate and partner with teams to overcome challenges.",
+        "About the job:",
+        "The Hardware Operations team is responsible for monitoring the high quality physical infrastructure behind Google's powerful search technology.",
+        "As a Data Center Technician, you will install, configure, test, troubleshoot, and maintain hardware (e.g. servers and their components) and server software (e.g. Google's Linux cluster). You will manage the configuration of components such as networks, routers, hubs, bridges, switches, and networking protocols. You will also participate in or lead project teams on installations and develop project contingency plans. In addition, you will be involved in the manual movement and installation of racks.",
+        "Responsibilities:",
+        "- Lead troubleshooting and resolve escalated technical issues regarding affected equipment.",
+        "- Contribute to and lead efforts/projects in the deployment, maintenance, and support of data center infrastructure.",
+        "- Help test and troubleshoot server hardware components and designs.",
+        "- Configure and troubleshoot OS-related issues on server."
+      ],
+      
+      "documents": [
+        "Apply online through Google's careers website.",
+        "Required documents to upload:",
+        "- Resume/CV",
+        "- Cover Letter",
+        "- Educational Qualifications",
+        "- Experience Certificates"
+      ],
+      
+      "jobLink": "https://www.google.com/about/careers/applications/jobs/results/125424985761030854-data-center-technician-cloud-region?target_level=EARLY&target_level=INTERN_AND_APPRENTICE&degree=BACHELORS&company=Google&company=YouTube",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "95",
+      "companyImage": "/images/yelp.png",
+      "companyName": "Yelp",
+      "jobRole": "Software Engineer-Data Backend",
+      
+      "postDate": "2024-11-26",
+      "category": "Abroad Job",
+      "experience": "Entry-level",
+      "qualification": "Bachelor Degree(CS/IT)",
+      "skills": "Python, SQL, NoSQL, Apache Spark, AWS, Java, C++, Machine Learning, Data Analytics, Data Pipelines",
+      "jobDescription": [
+        "Location: Remote, Canada",
+        "Contribute to building systems that can effectively store and crunch terabytes of data.",
+        "Support the infrastructure that empowers millions of Yelp’s users to make the best decisions.",
+        "Engage with diverse challenges such as personalizing ads and search ranking, AI telephony and chatbots, advertiser retention and churn prevention, data-driven storytelling, clickstream analytics, content type classification, delivering personalized recommended businesses to users and sophisticated bot detection.",
+        "Collaborate with cross-functional teams, including software engineers, product managers and data scientists to identify and use the most relevant consumer and business data.",
+        "Develop expertise in cutting-edge infrastructure for machine learning or data analytics or product feature use cases.",
+        "Learn the fine art of balancing scale, latency and availability depending on the problem."
+      ],
+      
+      "documents": [
+        "Apply online through Yelp's official website.",
+        "Required documents to upload:",
+        "- Resume",
+        "- Cover Letter"
+        
+      ],
+      
+      "jobLink": "https://www.yelp.careers/us/en/job/YELPUS13196EXTERNALENUS/Entry-Level-Software-Engineer-Data-Backend-Remote-Canada?utm_source=indeed&utm_medium=phenom-feeds",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "96",
+      "companyImage": "/images/citi.png",
+      "companyName": "Citi",
+      "jobRole": "Data Engineer",
+      
+      "postDate": "2024-11-26",
+      "category": "Abroad Job",
+      "experience": "0 - 2 years",
+      "qualification": "B.E/B.Tech(CS/ES)",
+      "skills": "Python, Java, Scala, SQL, Cloud Technologies, Data Processing, Data Warehousing, Business Intelligence, Data Engineering Tools",
+      "jobDescription": [
+        "Location: Tampa Florida ,United States",
+        "Salary Range:",
+
+        "$76,560.00 - $106,840.00",
+        "Developing and supporting scalable, extensible, and highly available data solutions.",
+        "Deliver on critical business priorities while ensuring alignment with the wider architectural vision.",
+        "Identify and help address potential risks in the data supply chain.",
+        "Follow and contribute to technical standards.",
+        "Experience with relational databases and SQL for data querying, transformation, and manipulation.",
+        "Familiarity with data processing and integration tools like Ab Initio or Informatica.",
+        "Experience with open-source data engineering tools such as Spark, Kafka, Beam, Flink, Trino, Airflow, DBT.",
+        "Exposure to 'big data' platforms such as Hadoop or Snowflake for data storage and processing.",
+        "Ability to automate and streamline the build, test, and deployment of data pipelines."
+      ],
+      
+      "documents": [
+        "Apply online through Citi's official website.",
+        "Required documents to upload:",
+        "- Resume",
+        
+        "- Experience Certificates",
+        "- Certifications (if applicable)"
+      ],
+      
+      "jobLink": "https://jobs.citi.com/job/tampa/data-engineer-c11-officer/287/71371497344",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "97",
+      "companyImage": "/images/ups.png",
+      "companyName": "UNITED PARCEL SERVICE",
+      "jobRole": "Data Entry Clerk",
+      
+      "postDate": "2024-11-26",
+      "category": "Abroad Job",
+      "experience": "Entry Level",
+      "qualification": " Diploma or B.Tech",
+      "skills": "Attention to detail, Typing skills, Customer service skills",
+      "jobDescription": [
+        "UPS is currently looking for Part-time Data Entry Clerks responsible for performing checks on packages (check labels, packaging, and invoices). You must have top-notch customer service skills and be able to lift 70lbs unassisted.",
+        "Job Type: PT Permanent/Hourly – Must be able to work a minimum of 25 hours per week.",
+        "Starting Pay: $17.30",
+        "Job Location: Charlottetown,Prince Edward Island Canada",
+        "Part-time Data Entry Clerk",
+        "Workdays: Monday – Fridays (5 Days/ Week)",
+        "Starting Time: 3pm",
+        "Scheduled Shift: Daily minimum 4 hours / maximum 5-6 hours. Flexibility required for early or late shifts.",
+        "Required Skills:",
+        "  - Attention to detail",
+        "  - Typing skills: at least 40 words per minute",
+        "  - Must be able to lift 70lbs unassisted *this is a warehouse position",
+        "  - Customer service skills",
+        "The environment is fast-paced with changing temperatures inside the warehouse.",
+        "Benefits:",
+        "  - Full training provided",
+        "  - On-site parking",
+        "  - Weekly pay (every Friday)",
+        "  - Extended health and dental benefits",
+        "  - Group insurance and pension benefits",
+        "  - Opportunities for advancement",
+        "UPS is a diverse and equal opportunity employer. Accommodations are available on request for candidates with disabilities."
+      ],
+      
+      "documents": [
+        "Apply online through the UPS official website.",
+        "Required documents to upload:",
+        "- Update Resume,Cover Letter",
+        "- Educational Qualifications"
+        
+      ],
+      
+      "jobLink": "https://en.jobs-ups.ca/job/-/-/23951/73541208608",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "98",
+      "companyImage": "/images/oracle.png",
+      "companyName": "Oracle",
+      "jobRole": "Technical Program Manager Intern",
+      
+      "postDate": "2024/11/26",
+      "category": "Abroad Job",
+      "experience": "Entry Level",
+      "qualification": "Bachelor degree(CS/IT)",
+      "skills": "Excellent communication, Agile/Scrum, Microsoft Office Suite, Confluence",
+      "jobDescription": [
+        "US: Hiring Range: from $18.99 to $53.00 per hour; from $39,500 to $110,240 per annum.",
+        "located in Austin, TX; Santa Clara, CA; or Seattle, WA.",
+
+        "Internship Role intended for current students pursuing their Bachelor’s degree and having completed their sophomore or junior year by Summer 2025.",
+        "The team develops a suite of cloud infrastructure products, including compute, storage, networking, security, and platform products.",
+        "Manage development and implementation process involving cross-functional teams.",
+        "Plan schedules and monitor budget/spending.",
+        "Assign and monitor work of systems analysis and program staff, providing technical support and direction.",
+        "Currently enrolled in a Bachelor’s degree program in Computer Science, Information Systems, or equivalent major",
+        
+        "Have completed at least one internship, research assistantship, teaching assistantship, or equivalent practical experience working with the relevant areas noted above.",
+        "Attend a university in the US.",
+        "Able to obtain work authorization in the US in 2025."
+      ],
+      
+      "documents": [
+        "Resume",
+        
+        "Cover Letter"
+      ],
+      
+      "jobLink": "https://careers.oracle.com/jobs/#en/sites/jobsearch/requisitions/preview/267357/?lastSelectedFacet=AttributeChar13&location=United+States&locationId=300000000149325&locationLevel=country&mode=location&selectedFlexFieldsFacets=%22AttributeChar13%7CCampus%22&selectedPostingDatesFacet=7&sortBy=POSTING_DATES_DESC",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "99",
+      "companyImage": "/images/caltech.png",
+      "companyName": "Caltech",
+      "jobRole": "Research Technician, Assistant",
+      "vacancy": "Multiple",
+      "postDate": "2024-11-26",
+      "category": "Abroad Job",
+      "experience": "0-1year",
+      "qualification": "BS/B.Tech(Mechanical)",
+      "skills": "Research, Mechanical Engineering, 3D CAD, MATLAB, Oscilloscope, Manufacturing, Experimental Work",
+      "jobDescription": [
+        "Location: Pasadena, CA",
+        "Hiring Range:",
+        "$18.50 to $24.75 per hour",
+        "As a researcher in the Daraio Lab, you will be responsible for working on wearable devices and creating experimental setups to understand wave motion in solids.",
+        "Initially, you will be trained in ongoing research in wearable devices and lab equipment.",
+        "You will take measurements from wave motion experiments, adjust, and troubleshoot any equipment, and design and manufacture components as needed.",
+        "You will work with other scholars to design experiments and evaluate findings for future research.",
+        "Essential Job Duties include setting up experimental procedures, calibrating equipment, working on software development in MATLAB, designing and manufacturing components, troubleshooting software and hardware, providing support with 3D CAD and ISO standards, attending group meetings, and reporting findings."
+      ],
+      
+      "documents": [
+        "Update Resume",
+        "- Cover Letter"
+      ],
+      
+      "jobLink": "https://phf.tbe.taleo.net/phf03/ats/careers/v2/viewRequisition?org=CALTECH&cws=37&rid=10139",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "100",
+      "companyImage": "/images/cresta.png",
+      "companyName": "Cresta",
+      "jobRole": "Software Engineer",
+      "postDate": "2024/11/26",
+      "category": "Abroad Job",
+      "experience": "Entry Level",
+      "qualification": "Bachelor degree(CS/IT)",
+      "skills": "Strong Computer Science fundamentals, Clean code, Reusable system components, Growth mindset",
+      "jobDescription": [
+        "Job Location: Toronto, Canada (Hybrid)",
+        "Play a substantial role in the growing Cresta engineering team.",
+        "Demonstrate a strong growth trajectory and make meaningful contributions starting from the first 3 months.",
+        "Work with Cresta product and engineering teams to build and continuously improve the platform.",
+        "Develop high quality, well-designed, reusable, and well-tested system components.",
+        "Optimize the platform design and implementation for lower latency, higher throughput, better reliability, and cost reduction.",
+        "Grow into technical ownership of a substantial part of the Cresta product and platform.",
+        "Bachelor’s degree in Computer Science or related field.",
+        "0-3 years of full time experience.",
+        "Proficient in writing clean and maintainable code."
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://job-boards.greenhouse.io/cresta/jobs/4251044008",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
     }
     
+    
+    
+    
+
+    
+
+    
+
+
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+    
+    
+    
+    
+
     
   
 ]      
