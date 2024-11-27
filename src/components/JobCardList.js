@@ -37,6 +37,7 @@ const JobCardList = ({ jobs }) => {
           <h2>{job.companyName}</h2>
           <p>{job.jobRole}</p>
           <p>{job.experience}</p>
+          <p>{job.qualification}</p>
           {job.vacancy && (
            <p>
               <strong>Job Vacancy:</strong> {job.vacancy}
