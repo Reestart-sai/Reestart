@@ -1780,7 +1780,251 @@
       "jobLink": "https://ejgk.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/INTG10023420",
       
       "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "102",
+      "companyImage": "/images/sap.png",
+      "companyName": "SAP",
+      "jobRole": "IT Architecture Specialist",
+      
+      "postDate": "2024-11-29",
+      "category": "Private Job",
+      "experience": "1+ years ",
+      "qualification": "Bachelor Degree(CS/IT) ",
+      "skills": "Python, JavaScript, REST API, XML, JSON, GraphQL, Microsoft Power BI, SAP applications and technologies, LeanIX",
+      "jobDescription": [
+        "Enterprise Architecture (EA) involves aligning people, technology, and processes for seamless business operations.",
+        "Collaborate with stakeholders, including C-level executives, to define sustainable IT architectures and roadmaps.",
+        "Develop and provide integration services for LeanIX use cases like Tool Harmonization and Next Gen Cloud Selling initiatives.",
+        "Drive tool adoption within SAP and ensure data integration, automation, and quality.",
+        "Consult Enterprise Architecture Group on implementation, data capturing, and quality.",
+      
+        "eligibilityCriteria:",
+        "1+ years of software development experience or similar.",
+        "Good communication skills with stakeholders, including management.",
+        "Familiarity with Python, JavaScript, REST API, XML, JSON, GraphQL, and Microsoft Power BI.",
+        "Experience with SAP applications, technologies, or LeanIX is a plus.",
+        "Ability to work with globally distributed teams."
+      ],
+      
+      "documents": [
+        "Updated CV showcasing relevant skills and experience."
+      ],
+      
+      "jobLink": "https://jobs.sap.com/job/Bangalore-IT-Architecture-Specialist-560066/1135517701/?feedId=118200&utm_source=Indeed&utm_campaign=SAP_Indeed",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "103",
+      "companyImage": "/images/techmahindra.png",
+      "companyName": "Tech Mahindra",
+      "jobRole": "Associate-Customer Support",
+      "vacancy": "25",
+      "postDate": "2024-11-29",
+      "category": "Private Job",
+      "experience": "0 to 0 Years",
+      "qualification": "Graduates and Postgraduates",
+      "skills": "International Customer Handling, UK Client Handling, Good English Communication Skills",
+      "jobDescription": [
+        "Provide customer support.",
+        "Ability to understand issues and resolve miscellaneous queries.",
+        "Relevant experience in International Voice Process.",
+        "Excellent communication skills in English (verbal and written).",
+        "Good customer handling skills.",
+        "Comfortable working in rotational shifts for a voice process.",
+      
+        "eligibilityCriteria:",
+        "Education: Undergraduates, Graduates, and Postgraduates.",
+        "Work Location: Hyderabad (Bahadurpally Tech Mahindra Campus).",
+        "Flexibility: 24/7 shifts with 2 rotational offs.",
+        "Freshers are eligible. Salary for freshers: 3 LPA; experienced candidates up to 4.5 LPA annually.",
+      
+        "additionalInfo:" ,
+        "2-way cab facility provided.",
+        "Walk-in Timings: 10 AM - 2 PM.",
+        "Venue: Tech Mahindra, Bahadurpally Survey No 62 TMTC SEZ 1A, Qutubullapur Mandal, Bahadurpally, Hyderabad, Telangana, PIN 500043."
+      ],
+      "importantDates": [
+        "- Start Date: 14/11/2024",
+        "- Expiry Date: 15/12/2024"
+      ],
+      "jobLink": "https://careers.techmahindra.com/JobDetails.aspx?JobCode=MQAAADAAAAAyAAAA-5lYGd6cYRYM=",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "104",
+      "companyImage": "/images/accenture.png",
+      "companyName": "Accenture",
+      "jobRole": "Associate Software Engineer (ASE)",
+      
+      "postDate": "2024-11-29",
+      "category": "Private Job",
+      "experience": "0 - 2 Year",
+      "qualification": "B.E/B.Tech/CS/IT",
+      "skills": "ABAP Development, Salesforce, J2EE, Full Stack Development, .NET (ASP.NET/ASP.NET MVC), Test Automation",
+      "jobDescription": [
+        "Job Responsibilities:",
+        "- Design, build, test, assemble, support, and configure applications using business requirements.",
+        "- Understand business drivers and deliver software to expectations.",
+        "- Participate in developing automation solutions, new functionality, and technologies.",
+        "- Support infrastructure operations and manage IT production systems and services.",
+        "Preferred Skills:",
+        "- Basic understanding of ABAP Development on HANA, CDS, AMDP, and Performance Analysis.",
+        "- Knowledge in Salesforce application customization and configuration.",
+        "- Experience with J2EE, full-stack development, and .NET technologies.",
+        "- Proficiency in test automation engineering, including test case design and execution.",
+      
+        "eligibility:",
+        "- Any engineering stream of B.E/B.Tech/M.E/M.Tech/MCA/MSc (CS/IT/Computer Applications/Data Science).",
+        "- No active backlogs during application or onboarding.",
+        "- No more than 23 months of full-time experience.",
+        "- Must not have appeared for Accenture's recruitment process in the last 3 months.",
+        "- Indian citizenship required (Bhutan and Nepal nationals are also eligible without a visa)."
+      ],
+      
+      "documents": [
+        "- Resume",
+        "- Educational Certificates",
+        "- ID Proof",
+        "- Relevant Experience Documents (if applicable)"
+      ],
+      
+      
+      "jobLink": "https://indiacampus.accenture.com/myzone/accenture/1/jobs/25377/job-details",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "105",
+      "companyImage": "/images/accenture.png",
+      "companyName": "Accenture",
+      "jobRole": "System and Application Services Associate",
+      
+      "postDate": "2024-11-29",
+      "category": "Private Job",
+      "experience": "0 - 2 Years",
+      "qualification": "B.Sc, BCA, BBA, B.A, B.Com",
+      "skills": "Low/No Code Development, Project Management, Quality Engineering, Application/Cloud Support, Infrastructure Managed Services",
+      "jobDescription": [
+        "Role Overview:",
+        "Work in dynamic environments, creating and supporting solutions for client requirements from analysis to implementation.",
+        "Responsibilities:",
+        "- Manage infrastructure services and operations for on-premises and cloud-based technologies.",
+        "- Support, monitor, and maintain applications and cloud systems.",
+        "- Enable program management and enhance technology delivery.",
+        "- Develop low/no-code applications, optimize and automate internal business processes.",
+        "- Conduct quality engineering, including test design and scenario preparation.",
+        "Important Notes:",
+        "- Accenture follows a strict merit-based hiring process. No monetary arrangements are involved."
+      ],
+      
+      "documents": [
+        "Valid ID Proof (AADHAR, Pancard, etc.)",
+        "Educational Certificates",
+        "Update Resume"
+      ],
+      
+      "jobLink": "https://indiacampus.accenture.com/myzone/accenture/1/jobs/129361/job-details",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "106",
+      "companyImage": "/images/ubs.png",
+      "companyName": "UBS",
+      "jobRole": "Intern",
+      
+      "postDate": "2024-11-29",
+      "category": "Internship",
+      "experience": "Entry Level",
+      "qualification": "B.Tech/M.TECH (CS, Data Science)",
+      "skills": "Programming (R/Python), Data Analytics, SQL, MS Excel, Problem-Solving, Communication",
+      "jobDescription": [
+        "Key Responsibilities:",
+        "- Liaising with stakeholders to design and develop technical solutions for PPNR (Pre-provision net revenue) processes.",
+        "- Coding using R or equivalent programming languages.",
+        "- Developing technological solutions to automate and optimize processes.",
+        "- Analyzing large datasets using SQL, MS Excel, and data discovery tools.",
+        "- Collaborating with the team to enhance existing solutions and extend their scope.",
+        "- Ensuring high-quality, timely, and consistent results via efficient processes."
+      ],
+      
+      "documents": [
+        "Resume",
+        "Relevant certifications (if any).",
+        
+        "Other Supporting Documents (if applicable)"
+      ],
+      
+      "jobLink": "https://jobs.ubs.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25008&siteid=5012&PageType=JobDetails&jobid=313676&codes=IINDD#jobDetails=313676_5012",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "107",
+      "companyImage": "/images/inkle.png",
+      "companyName": "Inkle",
+      "jobRole": "Product Intern",
+      
+      "postDate": "2024-11-29",
+      "category": "Internship",
+      "experience": "Freshers",
+      "qualification": "Bachelor's Degree",
+      "skills": "Product Management, Marketing Strategies, Communication, Problem-Solving, Team Collaboration",
+      "jobDescription": [
+        "location: Mumbai, India",
+        "Collaborate with product managers to define product requirements and update and maintain product documentation.",
+        "Contribute creative ideas to enhance the user experience and product strategy.",
+        "Assist in researching customer needs, industry trends, and competitor analysis.",
+        "Work closely with engineering and design teams to deliver quick time-to-market and optimal resources.",
+        "Work towards product launches including working with the public relations team, executives, and other product management team members."
+      ],
+      
+      "documents": [
+        "Updated Resume",
+        "Cover Letter"
+      ],
+      "importantDates": [
+        "- Start Date: As soon as possible",
+        "- Duration: 6 months (On-Site)"
+      ],
+      "jobLink": "https://inkle.keka.com/careers/jobdetails/63255",
+      
+      "telegramLink":"https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "108",
+      "companyImage": "/images/smartbridge.png",
+      "companyName": "Smartbridge(AICTE) ",
+      "jobRole": "Full Stack Web Developer (MERN)",
+      "vacancy": "1000",
+      "postDate": "2024-11-29",
+      "category": "Internship",
+      
+      "qualification": "relevant any specialization",
+      "skills": "MongoDB, Express.js, React, Node.js, Web Development, Full Stack Development",
+      "jobDescription": [
+        "A Full Stack Development MERN Internship provides practical experience in creating web applications using MongoDB, Express.js, React, and Node.js.",
+        "Interns will learn to build, deploy, and maintain scalable solutions, collaborate on real-world projects with seasoned developers, and enhance their skills in both frontend and backend development.",
+        "The internship prepares them for a career in web development."
+      ],
+      
+      "documents": [
+        "Resume",
+        
+        "Education related information"
+      ],
+      "importantDates": [
+        "Start Date: Immediately",
+        "Last Date: 10-Jan-2025"
+      ],
+      "jobLink": "https://internship.aicte-india.org/internship-details.php?uid=SU5URVJOU0hJUF8xNzIxNzk3NTgxNjZhMDhiY2RjYWRjZg==&level=NA==",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
     }
+    
     
     
     
