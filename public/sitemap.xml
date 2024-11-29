@@ -240,5 +240,10 @@
           <loc>https://reestarts.in/job-details/100</loc>
           <changefreq>daily</changefreq>
         </url>
+     
+       <url>
+          <loc>https://reestarts.in/job-details/101</loc>
+          <changefreq>daily</changefreq>
+        </url>
       
     </urlset>
