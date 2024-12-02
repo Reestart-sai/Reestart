@@ -2023,7 +2023,389 @@
       "jobLink": "https://internship.aicte-india.org/internship-details.php?uid=SU5URVJOU0hJUF8xNzIxNzk3NTgxNjZhMDhiY2RjYWRjZg==&level=NA==",
       
       "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "109",
+      "companyImage": "/images/quest.png",
+      "companyName": "QUEST Global",
+      "jobRole": "Python Developer",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "0-2 Years",
+      "qualification": "B.E/B.Tech(CS,IT)",
+      "skills": "Python libraries, IDEs, File operations, XML parsing, API wrappers, Client-server applications, Communication skills, Stakeholder management",
+      "jobDescription": [
+        "Develop test automation framework for railway signalling validation.",
+        "Automate manual test cases to enable automated execution of tests.",
+        "Design and write Software Requirement Specifications.",
+        "Assist architects in developing architecture diagrams.",
+        "Maintain code repository and version control.",
+        "Perform regression testing for new feature deliveries."
+      ],
+      "documents": [
+        "Resume",
+        "Portfolio (if available)"
+      ],
+      "jobLink": "https://careers.quest-global.com/global/en/job/QGRQGAGLOBALP104345EXTERNALENGLOBAL/Python-Developer?utm_source=indeed&utm_medium=phenom-feeds",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "110",
+      "companyImage": "/images/aws.png",
+      "companyName": "Amazon",
+      "jobRole": "Cloud Support Associate",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "0-1 years",
+      "qualification": "B.E/B.Tech(CS,IT and ES)",
+      "skills": "Linux Systems administration, Database design and Optimization, BigData Analysis, Network administration, DevOps, Programming/scripting (Java, Perl, Ruby, C#, PHP), Troubleshooting/Support, Excellent communication",
+      "jobDescription": [
+        "location: IND, KA, Bangalore",
+        "Basics requirement in OS concepts / Linux/Unix Systems administration (Ubuntu, CentOS, RedHat, Solaris, etc), Networking (TCP/IP, DNS), Exposure to Cloud computing",
+        "Solve customer cases through channels such as telephone, email, and live chat.",
+        "Apply advanced troubleshooting techniques to resolve issues and provide tailored solutions.",
+        "Coach/mentor new hires and develop training programs.",
+        "Partner with development teams on complex issues and process improvements.",
+        "Drive customer communication during critical events.",
+        "Learn and use groundbreaking technologies in cloud computing.",
+        "Interact with global technologists and resolve customer issues.",
+        "salaryRange: ₹5L – ₹9L/yr"
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter(available)"
+      ],
+      "jobLink": "https://www.amazon.jobs/en/jobs/2843213/cloud-support-associate-support-engineering?cmpid=DA_INAD200785B",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "111",
+      "companyImage": "/images/spglobal.png",
+      "companyName": "S&P Global",
+      "jobRole": "Apprentice - DevOps",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "Entry Level",
+      "qualification": "B.E,B.Tech(CS/IT)",
+      "skills": "AWS, Infrastructure as Code (IaC), CI/CD pipelines, Security compliance analysis, Clean coding practices",
+      "jobDescription": [
+        "Role Overview: based on Software Development/DevOps ",
+        "Develop Infrastructure as Code (IaC) automation scripts for AWS cloud.",
+        "Develop and execute CI/CD pipelines for AWS cloud native applications.",
+        "Analyze security compliance reports for AWS cloud resources.",
+        "Write clean and efficient code.",
+        "Collaborate with the Unity team to build out an AWS cloud native platform.",
+        "Support analysts in forecasting trends in the automotive industry."
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://careers.spglobal.com/jobs/309179?lang=en-us&utm_source=indeed",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "112",
+      "companyImage": "/images/emids.png",
+      "companyName": "EMIDS Technologies",
+      "jobRole": "Data Engineer",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "1-3 years",
+      "qualification": "Bachelor's degree in Computer Science, Information Technology, or related field",
+      "skills": "ETL/ELT tools, Cloud Platforms (AWS, Azure, GCP), Snowflake, Databricks, Informatica, Spark, Hadoop, Java, React, NodeJS, Angular",
+      "jobDescription": [
+        "location:Bengaluru ",
+        "Design, develop, and maintain ETL/ELT pipelines using tools such as Informatica, Spark, Hadoop, Datastage, or similar platforms.",
+        "Work on cloud-based data services on platforms such as Google Cloud Platform (GCP), AWS, or Azure.",
+        "Collaborate on projects involving data warehouse (DWH) products such as Snowflake and Databricks.",
+        "Support the development of front-end or back-end applications using Java, React, NodeJS, or Angular.",
+        "Ensure data quality, integrity, and security across systems.",
+        "Strong understanding of ETL/ELT processes.",
+        "Be a part of a dynamic and innovative team transforming the healthcare and life sciences industries.",
+        "Work with cutting-edge tools and technologies in a collaborative environment.",
+        "Enjoy opportunities for learning, growth, and career advancement.",
+        "salaryRange: ₹7L – ₹9L/yr"
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter(if possible)"
+      ],
+      "jobLink": "https://www.emids.com/careers/career/?gh_jid=6285820003",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "113",
+      "companyImage": "/images/natwest.png",
+      "companyName": "NatWest",
+      "jobRole": "Software Engineer, AVP",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "0-2 years",
+      "qualification": "B.E/B.Tech(CS and IT)",
+      "skills": "Microsoft Power Platform (Power Apps, Power Automate, Power BI), .NET Framework, C#, SQL, API Development, Agile/DevOps methodologies, MVC patterns",
+      "jobDescription": [
+        "location: chennai",
+        "Design, develop, and deploy high-performance, secure, and customer-centric software solutions.",
+        "Develop low-code or no-code solutions using Microsoft Power Apps, Power Automate, and Power BI.",
+        "Work in feature teams for the complete software development lifecycle, from requirements to deployment.",
+        "Optimize software engineering capabilities and produce high-quality software solutions.",
+        "Develop web applications adhering to industry standards.",
+        "Engineer APIs and integrate solutions with third-party applications.",
+        "Maintain applications using modern tools and frameworks, ensuring performance and reliability.",
+        "salaryRange: ₹6L – ₹9L/yr"
+      ],
+      "documents": [
+        "Resume",
+        "Portfolio"
+      ],
+      "jobLink": "https://jobs.natwestgroup.com/jobs/15312109-software-engineer-avp?tm_job=R-00246482&tm_event=view&tm_company=861",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "114",
+      "companyImage": "/images/natwest.png",
+      "companyName": "NatWest",
+      "jobRole": "DevOps Engineer, AVP",
+      "postDate": "2024/12/03",
+      "category": "Private Job",
+      "experience": "1-2 years ",
+      "qualification": "Bachelor's degree in Computer Science or related field",
+      "skills": "Git, GitLab, Docker, Python, Bash, Shell scripting, Kubernetes, AWS ECS, DevOps, Testing, Agile methodology",
+      "jobDescription": [
+        "location:Bengaluru ",
+        "Engineer and maintain innovative, customer-centric, high-performance, secure, and robust solutions.",
+        "Collaborate within a feature team and work on software, scripts, and tools that are often complex.",
+        "Produce high-quality software rapidly to add value to the business.",
+        "Work in permanent teams responsible for the full lifecycle, from development to maintenance and decommissioning.",
+        "Design, produce, test, and implement working code across the software lifecycle.",
+        "Optimise software engineering capability and apply programming best practices in scalability, automation, virtualisation, optimisation, availability, and performance.",
+        "salaryRange: ₹6L – ₹9L/yr"
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://jobs.natwestgroup.com/jobs/15314872-devops-engineer-avp",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "115",
+      "companyImage": "/images/progress.png",
+      "companyName": "Progress",
+      "jobRole": "Software Engineer Intern",
+      "postDate": "2024/12/03",
+      "category": "Internship",
+      "experience": "Entry Level",
+      "qualification": "B.E,B.Tech(CS/IT)",
+      "skills": "Ruby, Java, Python, Golang, C++, C#, Linux, Windows operations, Networking, Cloud environment, DevOps, Automation",
+      "jobDescription": [
+        "Contribute to the development and maintenance of Chef products.",
+        "Build the code auto-generation and test platforms.",
+        "Work on issues and drive improvements to Chef offerings critical to the success of Chef’s customers and the broader Chef community.",
+        "Good software development skills in languages such as Ruby, Java, Python, Golang, C++ or C#.",
+        "Acquaintance with Linux and Windows operations and networking is a plus.",
+        "Exposure to cloud environment, DevOps, and automation is an advantage."
+      ],
+      "documents": [
+        "Resume",
+        "Letter of Recommendation"
+      ],
+      "jobLink": "https://www.progress.com/careers/job/software-developer-intern-bengaluru-india",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "116",
+      "companyImage": "/images/poshmark.png",
+      "companyName": "Poshmark",
+      "jobRole": "Security Engineer Intern - Cloud Infrastructure",
+      "postDate": "2024/12/03",
+      "category": "Internship",
+      "experience": "Entry Level",
+      "qualification": "BTech in CS/IT(2025 Pass Out Only)",
+      "skills": "AWS, Python, Ansible, Terraform, Jenkins, Linux, Docker, Kubernetes, OWASP10, Network Security, Endpoint Security",
+      "jobDescription": [
+        "location: chennai",
+        "Duration:6 months",
+        "Understand Systems, Network, and Cloud Infrastructure.",
+        "Implement security controls based on compliance frameworks like PCI, NIST, and ISO 27001.",
+        "Optimize AWS IAM by implementing least privilege principles.",
+        "Automate reporting for security tools.",
+        "Design architecture for network segmentation in the cloud.",
+        "Collaborate with IT to implement recommended changes.",
+        "Automate security incident detection and response using scripting languages.",
+        "Basic knowledge of public cloud providers like AWS, Azure, or GCP.",
+        "Understanding of vulnerabilities and their management.",
+        "Perform audits and support BCP/DR requirements."
+      ],
+      "documents": [
+        "Resume"
+      ],
+      "jobLink": "https://poshmark.wd5.myworkdayjobs.com/en-US/Poshmark_Careers/job/Chennai-Tamil-Nadu-India/Security-Engineer-Intern---Cloud-Infrastructure--2025-Pass-out-only-_R-200180",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "117",
+      "companyImage": "/images/gehealthcare.png",
+      "companyName": "GE HealthCare",
+      "jobRole": "Intern",
+      "postDate": "2024/12/03",
+      "category": "Internship",
+      "experience": "Entry Level",
+      "qualification": "M.Tech (CS,EC,EEE,Mechanical)",
+      "skills": "Teamwork, Integrity, Strong interpersonal skills, Mentorship, Global teamwork",
+      "jobDescription": [
+        "Location: Bengaluru",
+        "The intern works on projects in the next-gen visualization platform Software/Hardware development teams.",
+        "Deliver on the assigned projects within the defined timelines, under minimal supervision and guidance.",
+        "Learn and understand the problem statements and offer ways to resolve the same.",
+        "Learn the assigned technical/functional/behavioral skills required to succeed in the role.",
+        "Must be a good team player and uphold integrity.",
+        "Open to being mentored and seeking feedback.",
+        "Strong interpersonal skills, capable of working within a globally diverse team across different time zones.",
+        "Willing to work in GE HealthCare premises during the internship.",
+        "Willing to work on any projects as assigned based on fitment and business need."
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4012679EXTERNALENGLOBAL/Intern?utm_source=indeed&utm_medium=phenom-feeds&ittk=OPYTCWKRYL",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "118",
+      "companyImage": "/images/regal-rexnord.png",
+      "companyName": "Regal Rexnord",
+      "jobRole": "AutoCAD Intern",
+      "postDate": "2024/12/03",
+      "category": "Internship",
+      "experience": "Intern",
+      "qualification": "B.E/B.Tech(Mechanical)",
+      "skills": "SolidWorks, AutoCAD, MS Excel, Manufacturing Processes, GD&T, Analytical Skills",
+      "jobDescription": [
+        "location: Hyderabad",
+        "Seeking a creative engineer to work on the design of mechanical power transmission products such as Couplings, Torque limiters, Locking Assemblies, Gearboxes etc.",
+        "The position involves producing high-quality engineering drawings for customers and manufacturing, using SolidWorks and DraftSight CAD software.",
+        "Engineer will work in multidisciplinary teams to develop next-generation ideas and products.",
+        "Close collaboration with Application Engineering, Manufacturing, Quality, Sales, and Marketing teams to align business needs with solutions/services.",
+        "Create/modify General Arrangement and manufacturing drawings using CAD tools (2D & 3D), as per customer needs.",
+        "Perform calculations using MS Excel and other design tools.",
+        "Identify components, prepare Bills of Materials, and assist in processing release of drawings, parts, or specifications.",
+        "Provide support for CAD automation projects as needed."
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://regalrexnord.wd1.myworkdayjobs.com/en-US/Careers/job/Hyderabad-Telangana-India/Intern_R24_05510",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "119",
+      "companyImage": "/images/homedepot.png",
+      "companyName": "Home Depot",
+      "jobRole": "Software Engineer (Remote)",
+      "postDate": "2024/12/03",
+      "category": "Abroad Job",
+      "experience": "Entry Level",
+      "qualification": "Bachelor degree (CS/IT)",
+      "skills": "Java, Springboot, Javascript/Typescript, Object-Oriented Programming, source code version control, Relational or NoSQL database, Cloud computing, CI/CD tools, Microservices",
+      "jobDescription": [
+
+        "Location: Remote (Atlanta, GA)",
+        "Delivers and executes: Assists in developing, testing, deploying, and maintaining software; follows best practices and participates in improvement conversations.",
+        "Learns and grows: Learns through successful and failed experiments when tackling new problems.",
+        "Plans and aligns: Builds partnerships, works collaboratively with others, and collaborates with team members in agile processes.",
+        "Minimum Qualifications: Must be eighteen years of age or older and legally permitted to work in the United States.",
+        "Preferred Qualifications: Exposure to backend technologies like Java, Springboot, and Javascript/Typescript frameworks, exposure to CI/CD tools, microservice-based architecture, relational or NoSQL database technology, and cloud computing.",
+        "Minimum Education: Bachelor’s degree in a related field.",
+        "Minimum Years of Work Experience: 1 year.",
+        "salary:$50T - $1L/year"
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://careers.homedepot.com/job/21331826/software-engineer-remote-remote/?source=10588",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "120",
+      "companyImage": "/images/truecar.png",
+      "companyName": "TrueCar",
+      "jobRole": "Software Engineer 2 - Remote",
+      "postDate": "2024/12/03",
+      "category": "Abroad Job",
+      "experience": "1-2 years",
+      "qualification": "Bachelor's degree in Computer Science or related field",
+      "skills": "JavaScript, React, Redux, GraphQL, Apollo, Node.js, Ruby on Rails, HTML, CSS, Git, Cypress, Mocha, Jest, Agile processes, AWS",
+      "jobDescription": [
+        "location: Austin, TX",
+        "TrueCar is a leading automotive digital marketplace seeking a Software Engineer 2 to design, develop, and maintain software solutions.",
+        "The role involves using front-end JavaScript frameworks like React, along with testing frameworks like Cypress, Mocha, or Jest.",
+        "Experience with modern version control systems, JavaScript async patterns, and Node.js required.",
+        "Familiarity with Ruby on Rails, AWS deployment, and Agile processes is beneficial.",
+        "Responsibilities include creating reusable components, collaborating with cross-functional teams, troubleshooting defects, and staying updated on industry trends.",
+        "Candidates should be self-starters, with a strong desire to learn and grow, and capable of facilitating technical discussions.",
+        "The salary range is from $96,000 to $135,000 per year."
+      ],
+      "documents": [
+        "Resume",
+        "Cover Letter"
+      ],
+      "jobLink": "https://www.truecar.com/careers/?gh_jid=4501747005&gh_src=22b3c8b55us",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "121",
+      "companyImage": "/images/indian_coast_guard.png",
+      "companyName": "Indian Coast Guard (ICG)",
+      "jobRole": "Assistant Commandant (GD, Technical)",
+      "vacancy": "140",
+      "postDate": "2024-12-03",
+      "category": "Government Job",
+      "experience": "Varies by position",
+      "qualification": "Engineering Degree / 03 years Degree in any non-technical subject",
+      "skills": "Naval Architecture, Mechanical Engineering, Marine, Automotive, Mechatronics, Industrial and Production, Metallurgy, Design, Aeronautical, Aerospace, Electrical, Electronics, Telecommunication, Instrumentation and Control, Electronics and Communication, Power Engineering, Power Electronics, General Duty",
+      "jobDescription": [
+        "Post Name and Vacancies:",
+        "- Assistant Commandant (General Duty): 110",
+        "- Assistant Commandant - Technical (Engineering & Electrical/Electronics): 30",
+        "Eligibility Criteria:",
+        "- Engineering degree in relevant fields from a recognized university.",
+        "- For General Duty: 03 years degree in any non-technical subject from a recognized university.",
+        "Age Limit: 21-25 years as of 01 July 2025.",
+        "Selection Process:",
+        "- Stage I: Coast Guard Common Admission Test (CGCAT)",
+        "- Stage II: Preliminary Selection Board (PSB)",
+        "- Stage III: Final Selection Board (FSB)",
+        "- Stage IV: Medical Examination",
+        "- Stage V: Induction",
+        "Pay Scale:",
+        "- ₹56,100/- per month (Level 10)"
+      ],
+      "documents": [
+        "Apply online through ICG's Online Application Portal (joinindiancoastguard.cdac.in).",
+        "Required documents to upload:",
+        "- Passport Size Photograph",
+        "- Signature",
+        "- Left Hand Thumb Impression Image",
+        "- Date of Birth Proof",
+        "- Identity Proof"
+      ],
+      "importantDates": [
+        "- Online Application Start Date: 05/12/2024",
+        "- Last Date to Apply Online: 24/12/2024 (by 5:30 PM)",
+        "- Stage I Exam Date: 25/02/2025",
+        "- Admit Card Availability: Before Exam",
+        "- Stage II Exam Date: March 2025"
+      ],
+      "jobLink": "https://joinindiancoastguard.cdac.in/cgcat/",
+      "notification": "https://drive.google.com/file/d/1rEIBdenEjE4R5dvEkPb8WbpZFlII9PpT/edit",
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
     }
+    
     
     
     
