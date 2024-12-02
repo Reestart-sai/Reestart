@@ -120,7 +120,7 @@ const JobDetails = () => {
         )}
         {job.telegramLink && (
           <p>
-            <a href={job.telegramLink} target="_blank" rel="noopener noreferrer">Join Telegram for Updates</a>
+            <a href={job.telegramLink} target="_blank" rel="noopener noreferrer">Join Whatsapp for more Updates</a>
           </p>
         )}
         <Link to="/" className="back-to-home">Back to Home</Link>
