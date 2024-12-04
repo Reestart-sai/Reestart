@@ -59,7 +59,7 @@ const JobDetails = () => {
 
         <p><strong>Category:</strong> {job.category}</p>
         <p><strong>Qualification:</strong> {job.qualification}</p>
-        {job.vacancy && (
+        {job.skills && (
           <p>
               <strong>Skills:</strong> {Array.isArray(job.skills) ? job.skills.join(', ') : job.skills || 'No skills listed'}
           </p>
