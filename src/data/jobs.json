@@ -2404,7 +2404,478 @@
       "jobLink": "https://joinindiancoastguard.cdac.in/cgcat/",
       "notification": "https://drive.google.com/file/d/1rEIBdenEjE4R5dvEkPb8WbpZFlII9PpT/edit",
       "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
-    }
+    },
+    {
+      "id": "122",
+      "companyImage": "/images/oracle.png",
+      "companyName": "Oracle",
+      "jobRole": "Software Developer",
+      
+      "postDate": "2024-12-06",
+      "category": "Private Job",
+      "experience": "0 to 2+ years",
+      "qualification": "BS/B.TECH/BE(CS/IT)",
+      "skills": [
+        "Identity systems",
+        "Software development",
+        "Debugging",
+        "Documentation",
+        "DevOps tools",
+        "Operational processes",
+        "Security controls",
+        "Cloud service design"
+      ],
+      "jobDescription": [
+        "Support and maintain the Corporate Identity service offering.",
+        "Work with Oracle employees via a ticketing system to ensure appropriate application access.",
+        "Improve and implement security controls for access.",
+        "Design cloud services for availability, scalability, observability, and testability.",
+        "Launch new cloud services and establish operational excellence in a DevOps model.",
+        "Collaborate with geographically distributed engineering teams."
+      ],
+      "documents": [
+        "Resume",
+        
+        "Experience certificates (if applicable)"
+      ],
+      
+     
+      "jobLink": "https://careers.oracle.com/jobs/#en/sites/jobsearch/requisitions/preview/269227/?lastSelectedFacet=POSTING_DATES&location=India&locationId=300000000106947&locationLevel=country&mode=location&selectedFlexFieldsFacets=%22AttributeChar13%7CProfessional%3BCampus%7C%7CAttributeChar6%7C0+to+2%2B+years%22&selectedPostingDatesFacet=7&sortBy=POSTING_DATES_DESC",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "123",
+      "companyImage": "/images/american_express.png",
+      "companyName": "American Express",
+      "jobRole": "Analyst - Data Analytics",
+      
+      "postDate": "2024-12-06",
+      "category": "Private Job",
+      "experience": "0-2 years",
+      "qualification": "Business,Statistics,B.Tech",
+      "skills": "Hive, SQL, SAS, Python, MS Excel, PowerPoint, Analytical and Problem-Solving Skills, Communication Skills",
+      "jobDescription": [
+        "Work Location: Hybrid (Gurugram, Haryana, India)",
+        "Responsibilities:",
+        "- Build effective targeting, offer, and messaging strategy for consumer MGM Channel Analytics.",
+        "- Partner with Channel Marketing, Product, and Customer teams to drive growth in the MGM channel.",
+        "- Ensure accurate channel planning and use analytics to personalize MGM strategies.",
+        "- Evaluate the impact of initiatives and create insights to refine strategies.",
+        "- Drive innovation and process improvements for business results.",
+        "- Expand the use of data-driven decisions and data science in strategies.",
+        "Critical Factors to Success:",
+        "- Analytical Approach & Technical Expertise.",
+        "- Strong Business Acumen."
+      ],
+      "documents": [
+        "Updated resume",
+        
+        "Experience certificates (if any)",
+        "Government-issued ID proof"
+      ],
+      
+      "jobLink": "https://aexp.eightfold.ai/careers/job/26117714?hl=en",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+      "id": "124",
+      "companyImage": "/images/globallogic.png",
+      "companyName": "GlobalLogic",
+      "jobRole": "Trainee Data Engineer",
+      
+      "postDate": "2024-12-07",
+      "category": "Abroad Job",
+      "experience": "0-1 years",
+      "qualification": "B.E,B.Tech(CS/IT)",
+      "skills": "Airflow, DBT, Python, AWS, Snowflake, ETL, SQL, GitHub, GitHub Actions, Jenkins, communication, flexibility",
+      "jobDescription": [
+        "Job Responsibilities:",
+        "- Pipelining data from various SQL, Graph, and Document data sources",
+        "- Data processing and transformation using Python and DBT",
+        "- Scraping data from competitor web pages",
+        "- Loading and querying data to/from Graph DB",
+        "- Preparing data sources for custom dashboards",
+      
+        "documents:",
+        "Apply through GlobalLogic's career portal.",
+        "Required documents to upload:",
+        "- Updated Resume",
+        "- Educational Certificates",
+        "- Experience Certificates (if applicable)",
+
+        "Work Model:",	
+        "Remote, On-Site/Office, Hybrid",
+
+        "Location:",	
+        "Slovakia - Kosice,Europe",
+
+        "salary:1100€ gross/monthly"
+
+      ],
+    
+      "jobLink": "https://www.globallogic.com/careers/trainee-data-engineer-irc249702/",
+      
+      "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+    },
+    {
+    "id": "125",
+    "companyImage": "/images/amd.png",
+    "companyName": "AMD",
+    "jobRole": "Software Development Engineer 2",
+    
+    "postDate": "2024-12-07",
+    "category": "Private Job",
+    "experience": "0-2Years",
+    "qualification": "B.Tech/M.tech(CS/IT)",
+    "skills": "C, C++, Object-Oriented Design Principles, Data Structures, Algorithms, Operating Systems, Multithread Programming, Linux",
+    "jobDescription": [
+      "location: Bangalore, India",
+      "Role Responsibilities:",
+      "- Validate new software features before releasing to customers.",
+      "- Contribute to a high-functioning feature team.",
+      "- Collaborate closely with multiple teams to deliver key planning solutions.",
+      "- Contribute to the design and implementation of future architecture for scalable, durable, and innovative systems.",
+      "- Work closely with development teams and project managers to drive results.",
+      "Preferred Skills and Experience:",
+      "- Strong knowledge and hands-on experience with C and C++.",
+      "- Understanding of object-oriented design principles.",
+      "- Knowledge of software engineering principles, data structures, algorithms, operating systems concepts, and multithread programming.",
+      "- Familiarity with Linux and modern development tools."
+    ],
+    "documents": [
+      "Resume",
+      "Cover Letter (optional)",
+      
+      "Experience Certificates (if applicable)"
+    ],
+    
+    "jobLink": "https://careers.amd.com/careers-home/jobs/53481?lang=en-us",
+    
+    "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+  },
+  {
+    "id": "126",
+    "companyImage": "/images/yamaha.png",
+    "companyName": "Yamaha Motor Corporation, USA",
+    "jobRole": "Operations Support Specialist",
+    
+    "postDate": "2024-12-07",
+    "category": "Abroad Job",
+    "experience": "0-2 Years",
+    "qualification": "B.Tech/M.Tech",
+    "skills": "Microsoft Office (Word, Excel), Data entry, Attention to detail, Written and verbal communication, Organizational skills, Problem-solving, Multi-tasking",
+    "jobDescription": [
+        "Job ID:957",
+        "Compose routine correspondence for customers and dealers.",
+        "Perform mail mergers, receive, sort, and distribute mail daily.",
+        "Collaborate with management to create departmental reports.",
+        "Investigate and follow up on unidentified checks with dealers, customers, and financial institutions.",
+        "Facilitate documentation for internal and external audits.",
+        "Handle incoming calls and manage department voicemails.",
+        "Collect documents from dealers and dispatch correspondence.",
+        "Upload customer documents into systems.",
+        "Adhere to company policies and compliance with federal/state laws.",
+        "Provide support to Recovery, Repossession & Remarketing Administrators.",
+
+        "Benefits:",
+        "401(k) and Profit Sharing",
+        "Fertility Benefits",
+        "37.5-hour workweek",
+        "Medical, Dental, Vision Insurance",
+        "Life and AD&D Insurance",
+        "Wellness Program",
+        "Short-Term and Long-Term Disability",
+        "Student Debt Repayment Benefits",
+        "Ability to borrow Yamaha products",
+
+        "location:", 
+        "Cypress, California, United States",
+        "salary: $43,890 to $72,420"
+    ],
+    "documents": [
+        "Resume",
+        "Cover Letter",
+        "Education Certificates",
+        "Experience Certificates (if applicable)"
+    
+        
+    ],
+    
+    "jobLink": "https://myjobs.adp.com/yamahaexternalcareersite/cx/job-listing#957",
+    
+    "telegramLink": "https://whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+  },
+  {
+  "id": "127",
+  "companyImage": "/images/chargebee.png",
+  "companyName": "Chargebee",
+  "jobRole": "Software Engineer",
+  
+  "postDate": "2024-12-06",
+  "category": "Private Job",
+  "experience": "0-3 years",
+  "qualification": "B.Tech(CS/IT)",
+  "skills": "Core Java, Microservices, Spring Boot, Cloud Platforms, REST APIs, Algorithms, Data Structures, Design Patterns",
+  "jobDescription": [
+
+    "Location: Chennai - India, IN",
+
+    "Responsibilities:",
+    "- Develop high-quality backend products using advanced technologies.",
+    "- Collaborate with product designers and engineers to build features.",
+    "- Establish frameworks for backend documentation and governance.",
+    "- Design and build REST APIs with best practices in security and engineering.",
+    "- Integrate third-party platforms and work on billing and payment systems.",
+    "Skills Required:",
+    "- Strong foundation in algorithms, data structures, and design patterns.",
+    "- Proficiency in Core Java, microservices, Spring Boot, and cloud platforms.",
+    "- Experience building and designing REST APIs.",
+    "- Knowledge of Scrum/Agile development methodologies.",
+    "- Experience in application architecture and design."
+  ],
+  "documents": [
+    "Resume/CV",
+    "Educational Certificates",
+    "Experience Certificates (if applicable)"
+  ],
+  
+  "jobLink": "https://jobs.chargebee.com/job/Chennai-India-Software-Engineer/32870744/",
+  
+  "telegramLink": "https://whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+},
+{
+    "id": "128",
+    "companyImage": "/images/razorpay.png",
+    "companyName": "Razorpay",
+    "jobRole": "Analytics Associate",
+    
+    "postDate": "2024-12-07",
+    "category": "Private Job",
+    "experience": "1+ years",
+    "qualification": "B.TECH/M.TECH(CS/IT/Statistics)",
+    "skills": "SQL, Excel, Python, Tableau, Qlikview, Looker, Data Mining, Statistical Analysis, Machine Learning",
+    "jobDescription": [
+        "Responsibilities:",
+        "- Work with large, complex data sets to solve business problems using data mining, experimentation, statistical analysis, and machine learning as needed.",
+        "- Develop strong understanding of business and product, conduct analyses to derive insights, and validate hypotheses with rigorous methodologies.",
+        "- Participate in the product life cycle, including ideation, defining success criteria, instrumenting product features, and impact assessment.",
+        "- Expedite root cause analyses/insight generation through automation/self-serve platforms.",
+        "- Create compelling business stories with insights, aligned to the organization's strategic goals.",
+        "- Collaborate with Business, Product, and Data Engineering teams to improve data accuracy and completeness.",
+        "Qualifications:",
+        "- Bachelor's/Master’s degree in a quantitative field such as Engineering, Economics, Finance, Mathematics, Statistics, or Business Administration.",
+        "- Proficiency in SQL, Excel, and Python.",
+        "- Experience with data visualization tools like Tableau, Qlikview, Looker.",
+        "- Ability to conduct EDA, cohort analysis, and funnel analysis, and communicate actionable recommendations effectively.",
+        "- Understanding of product/strategic initiative aspects to identify gaps and opportunities."
+    ],
+    "documents": [
+        "Apply online through Razorpay's career portal.",
+        "Required documents to upload:",
+        "- Resume",
+        
+        "- Experience Certificates"
+    ],
+    
+    "jobLink": "https://razorpay.com/jobs/jobs-all/detail/?gh_jid=4499491005",
+    
+    "telegramLink": "https://whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+},
+{
+  "id": "129",
+  "companyImage": "/images/synopsys.png",
+  "companyName": "Synopsys",
+  "jobRole": "Intern (Infrastructure)",
+  
+  "postDate": "2024-12-07",
+  "category": "Internship",
+  "experience": "0-1 Years",
+  "qualification": "BE/BTech(CS/IT)",
+  "skills": "AI/ML concepts, algorithms, data structures, Python, Linux Kernel, shell scripting, Deep Learning, Machine Learning, Generative AI, AI/ML tools (PyTorch, MLflow, Keras)",
+  "jobDescription": [
+    "Location:Hyderabad",
+    "What You’ll Be Doing:",
+    "- Collaborating with global engineering teams to build Generative AI Platforms, Solutions, and SDKs.",
+    "- Exploring and understanding the cloud and on-premises components of an AI platform.",
+    "- Supporting the team with Generative AI and distributed systems software development.",
+    "Mission Statement:",
+    "- Drive technological innovations shaping daily life.",
+    "- Create high-performance silicon chips for healthier, safer, and sustainable solutions.",
+    "- Foster inclusivity, collaboration, and growth mindset."
+  ],
+  "documents": [
+    "Apply on the employer's website through the dedicated application portal.",
+    "- Cover Letter (optional)",
+    "- Resume"
+  ],
+  
+  "jobLink": "https://careers.synopsys.com/job/-/-/44408/74102537648",
+  
+  "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+},
+{
+  "id": "130",
+  "companyImage": "/images/paytm.png",
+  "companyName": "Paytm",
+  "jobRole": "Human Resources Intern",
+  
+  "postDate": "2024-12-07",
+  "category": "Internship",
+  "experience": "0-1Years",
+  "qualification": "MBA Graduation",
+  "skills": "Good communication, negotiation skills, learning attitude",
+  "jobDescription": [
+    "location: Noida, Uttar Pradesh",
+    "Responsibilities include:",
+    "- Job postings on job portals",
+    "- Preliminary screening of profiles",
+    "- Coordination of the recruitment process",
+    "- MIS management",
+    "- Miscellaneous HR activities",
+  
+    "superpowers:",
+    "Self-motivated and driven individual",
+    "Go-getter and individual contributor",
+    "Ability to learn and adapt quickly"
+  ],
+  
+  "jobLink": "https://jobs.lever.co/paytm/16dd6f32-e8bb-4be8-9407-89789eba3e92",
+  
+  "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+},
+{
+  "id": "131",
+  "companyImage": "/images/gehealthcare.png",
+  "companyName": "GE Healthcare",
+  "jobRole": "Intern – Digital Technology/IT",
+  
+  "postDate": "2024-12-07",
+  "category": "Internship",
+  "experience": "Freshers",
+  "qualification": "B.Tech/M.Tech(CS/IT/ES,EE)",
+  "skills": "Team player, integrity, strong interpersonal skills, open to feedback, willing to work in GE premises and on assigned projects",
+  "jobDescription": [
+    "location: Bengaluru, Karnataka, India, 560066",
+    "Learn and understand problem statements and offer ways to resolve them.",
+    "Work on assigned projects within defined timelines.",
+    "Develop technical, functional, and behavioral skills to succeed in the role.",
+    "Collaborate within a globally diverse team across different time zones.",
+    "Work on projects as assigned based on fitment and business needs.",
+    "qualification Based on B.Tech / M.Tech in Computer Science Engineering, Electronics & Communication Engineering, Electrical & Electronics Engineering, Electrical Engineering, Mechanical Engineering with 70% or 7 CGPA (no active backlogs)"
+  ],
+  "documents": [
+    "Resume",
+    "Academic Records (showing aggregate and no backlogs)",
+    "Any relevant certifications or project details"
+  ],
+  
+  "jobLink": "https://jobs.gecareers.com/global/en/job/R4012792/Intern-Digital-Technology-IT",
+  "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+  
+  
+  
+},
+{
+  "id": "132",
+  "companyImage": "/images/genpact.png",
+  "companyName": "Genpact",
+  "jobRole": "Mega Non-Voice Hiring",
+  "vacancy": "100",
+  "postDate": "2024-12-07",
+  "category": "Private Job",
+  "experience": "0 to 4 years",
+  "qualification": "Any Graduate",
+  "skills": "Customer Service, Content Moderation, Problem Solving, Probing Skills, Flexible Schedule, Fluent in English & Vernacular Languages (Hindi, Bengali, Arabic, Nepali, Tulu, Gujarati, Bhojpuri, Marwadi)",
+  "jobDescription": [
+    "location: Hyderabad",
+    "Responsibilities:",
+    "- Provide resolution to maintain standards of quality.",
+    "- Review content and provide resolution based on prescribed guidelines.",
+    "- Recognize trends and patterns and raise issues timely.",
+    "- Provide insights to help improve the support to the users.",
+    "- Maintain a thorough understanding of process and policies.",
+    "- Provide excellent customer service to customers.",
+    "- Work a 24/7 schedule with alternating shifts and daily review of sensitive online content (e.g., graphic violence, self-harm, child abuse, hate speech).",
+    "Qualifications:",
+    "- Any Graduate (PG an added advantage).",
+    "- Freshers are eligible.",
+    "- Fluent in English & any vernacular language (Hindi, Bengali, Arabic, Nepali, Tulu, Gujarati, Bhojpuri, Marwadi).",
+    "Preferred Skills:",
+    "- Effective probing skills and analyzing/understanding skills.",
+    "- Problem-solving skills with a customer-centric approach.",
+    "- Ability to work on a flexible schedule, including weekend shifts."
+  ],
+  "documents": [
+    "Interested candidates may join the Zoom session from 11:30 AM to 1 PM on 11th Dec 2024.",
+    "Zoom ID: https://genpact.zoom.us/j/96217060463"
+  ],
+  "importantDates": [
+    "- Zoom Session: 11/12/2024 from 11:30 AM to 1 PM"
+  ],
+  "jobLink": "https://naukri.com/job-listings-mega-non-voice-hiring-hyd-genpact-hyderabad-0-to-4-years-061224012257?src=sortby&sid=17335627822672934_4&xp=2&px=1",
+  
+  "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+},
+{
+  "id": "133",
+  "companyImage": "/images/bmc.png",
+  "companyName": "Brihanmumbai Municipal Corporation (BMC)",
+  "jobRole": "Junior and Deputy Engineers",
+  "vacancy": "690",
+  "postDate": "2024-12-07",
+  "category": "Government Job",
+  "experience": "Varies by position",
+  "qualification": "Diploma/B.Tech(Civil/Mechanical/Electrical)",
+  "skills": "Civil, Mechanical, Electrical, Engineering",
+  "jobDescription": [
+    "Post Name and Vacancies:",
+    "- Junior Engineer (Civil): 250",
+    "- Junior Engineer (Mechanical and Electrical): 130",
+    "- Deputy Engineer (Civil): 233",
+    "- Deputy Engineer (Mechanical and Electrical): 77",
+    "Age Limit:",
+    "- Minimum Age: 18 years (for all categories)",
+    "- Maximum Age: 38 years (Unreserved/Open), 43 years (Backward categories)",
+    "Pay Scale:",
+    "- Deputy Engineer: ₹44,900 - ₹1,42,400",
+    "- Junior Engineer: ₹41,800 - ₹1,32,300",
+    "Eligibility Criteria:",
+    "- Junior Engineer: Diploma in Civil/Mechanical/Electrical or relevant engineering discipline.",
+    "- Deputy Engineer: B.E./B.Tech Engineering graduate in Civil/Mechanical/Electrical or relevant engineering discipline.",
+    "Selection Process:",
+    "- Examination",
+    "- Interview",
+    "Application Fee:",
+    "- General Candidates: ₹1000/- + GST",
+    "- Reserved Category Candidates: ₹900/- + GST"
+  ],
+  "applicationFee": [
+    "General/EWS/OBC: ₹1000 + GST",
+    "SC/ST/PwBD/Ex-Servicemen: ₹900 + GST"
+  ],
+  "documents": [
+    "Apply online through the BMC IBPS Online Application Portal.",
+    "Required documents to upload:",
+    "- Passport Size Photograph",
+    "- Candidate’s Signature",
+    "- Proof of Date of Birth",
+    "- Educational Qualifications",
+    "- Mark Sheets and Experience Certificates"
+  ],
+  "importantDates": [
+    "- Start Date: 26/11/2024",
+    "- Closing Date: 16/12/2024"
+  ],
+  "jobLink": "https://ibpsonline.ibps.in/bmcjeapr23/",
+  "notification": "https://drive.google.com/file/d/1J5sT_C0L2ZQshX6-lFvsPRRSp5JBi0o_/view",
+  "telegramLink": "https://www.whatsapp.com/channel/0029VatrgGP2Jl8NdO5KQh0c"
+}
+
+
+
+
     
     
     
