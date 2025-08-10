@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,74 +20,73 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import jobsData from './data/jobs.json';
 
-const CACHE_EXPIRATION_TIME = 2 * 60 * 1000; // 24 hours in milliseconds
+const CACHE_EXPIRATION_TIME = 6 * 60 * 1000; // 24 hours
 
 const App = () => {
   const navigate = useNavigate();
-  const [jobs, setJobs] = React.useState([]);
-  const [searchResults, setSearchResults] = React.useState([]);
+  const [jobs, setJobs] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
 
-  // Override viewport meta tag to handle zooming and scaling properly
+  // Force specific viewport settings for mobile
   useEffect(() => {
     const viewportMetaTag = document.querySelector('meta[name="viewport"]');
-    
-    if (viewportMetaTag) {
-      if (window.innerWidth <= 768) {
-        // Force desktop view on smaller devices (optional, use with caution)
-        viewportMetaTag.setAttribute('content', 'width=1024');
-      } 
+    if (viewportMetaTag && window.innerWidth <= 768) {
+      viewportMetaTag.setAttribute('content', 'width=1024');
     }
   }, []);
 
+  // Load jobs with cache
   useEffect(() => {
     const loadJobsWithCache = () => {
       const cachedJobs = localStorage.getItem('cachedJobs');
       const cacheTimestamp = localStorage.getItem('cacheTimestamp');
 
       if (cachedJobs && cacheTimestamp) {
-        const isCacheExpired = Date.now() - parseInt(cacheTimestamp, 10) > CACHE_EXPIRATION_TIME;
-
+        const isCacheExpired =
+          Date.now() - parseInt(cacheTimestamp, 10) > CACHE_EXPIRATION_TIME;
         if (!isCacheExpired) {
-          // Use cached data if valid
           setJobs(JSON.parse(cachedJobs));
           return;
         }
       }
 
-      // Cache is invalid or doesn't exist; fetch and cache new data
+      // Save fresh jobs to cache
       localStorage.setItem('cachedJobs', JSON.stringify(jobsData));
-      localStorage.setItem('cacheTimestamp', Date.now());
+      localStorage.setItem('cacheTimestamp', Date.now().toString());
       setJobs(jobsData);
     };
 
     loadJobsWithCache();
-
-    // Optionally set an interval to refresh the cache automatically
-    const cacheRefreshInterval = setInterval(loadJobsWithCache, CACHE_EXPIRATION_TIME);
-
-    return () => clearInterval(cacheRefreshInterval); // Clean up interval
+    const interval = setInterval(loadJobsWithCache, CACHE_EXPIRATION_TIME);
+    return () => clearInterval(interval);
   }, []);
-  // Handle search functionality with caching
+
+  // Handle search
   const handleSearch = (query) => {
+    if (!query.trim()) return;
+
     const cachedSearch = localStorage.getItem(`search_${query}`);
     const cacheTimestamp = localStorage.getItem(`searchTimestamp_${query}`);
     const isCacheValid =
-      cachedSearch && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION_TIME;
+      cachedSearch &&
+      cacheTimestamp &&
+      Date.now() - parseInt(cacheTimestamp, 10) < CACHE_EXPIRATION_TIME;
 
     if (isCacheValid) {
       setSearchResults(JSON.parse(cachedSearch));
     } else {
-      const results = jobs.filter(
+      // Ensure jobs data is loaded before searching
+      const results = (jobs.length ? jobs : jobsData).filter(
         (job) =>
           job.jobRole.toLowerCase().includes(query.toLowerCase()) ||
           job.companyName.toLowerCase().includes(query.toLowerCase()) ||
           job.experience.toLowerCase().includes(query.toLowerCase())
       );
+
       setSearchResults(results);
 
-      // Cache the search results and update timestamp
       localStorage.setItem(`search_${query}`, JSON.stringify(results));
-      localStorage.setItem(`searchTimestamp_${query}`, Date.now());
+      localStorage.setItem(`searchTimestamp_${query}`, Date.now().toString());
     }
 
     navigate('/search-results');
@@ -106,7 +105,7 @@ const App = () => {
         <Route path="/all-abroad-jobs" element={<AllAbroadJobs jobs={jobs} />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/sitemap.xml" element={<SiteMap />} /> 
+        <Route path="/sitemap.xml" element={<SiteMap />} />
       </Routes>
       <Footer />
     </>
