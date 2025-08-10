@@ -1,5 +1,5 @@
 // src/App.js
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -20,14 +20,14 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import jobsData from './data/jobs.json';
 
-const CACHE_EXPIRATION_TIME = 6 * 60 * 1000; // 24 hours
+const CACHE_EXPIRATION_TIME = 2 * 60 * 1000; // 2 minutes for testing, adjust as needed
 
 const App = () => {
   const navigate = useNavigate();
-  const [jobs, setJobs] = useState([]);
-  const [searchResults, setSearchResults] = useState([]);
+  const [jobs, setJobs] = React.useState([]);
+  const [searchResults, setSearchResults] = React.useState([]);
 
-  // Force specific viewport settings for mobile
+  // Override viewport meta tag
   useEffect(() => {
     const viewportMetaTag = document.querySelector('meta[name="viewport"]');
     if (viewportMetaTag && window.innerWidth <= 768) {
@@ -35,56 +35,51 @@ const App = () => {
     }
   }, []);
 
-  // Load jobs with cache
   useEffect(() => {
     const loadJobsWithCache = () => {
       const cachedJobs = localStorage.getItem('cachedJobs');
-      const cacheTimestamp = localStorage.getItem('cacheTimestamp');
+      const cacheTimestamp = parseInt(localStorage.getItem('cacheTimestamp'), 10);
 
       if (cachedJobs && cacheTimestamp) {
-        const isCacheExpired =
-          Date.now() - parseInt(cacheTimestamp, 10) > CACHE_EXPIRATION_TIME;
+        const isCacheExpired = Date.now() - cacheTimestamp > CACHE_EXPIRATION_TIME;
         if (!isCacheExpired) {
           setJobs(JSON.parse(cachedJobs));
           return;
         }
       }
 
-      // Save fresh jobs to cache
+      // No valid cache → load from jobsData
       localStorage.setItem('cachedJobs', JSON.stringify(jobsData));
       localStorage.setItem('cacheTimestamp', Date.now().toString());
       setJobs(jobsData);
     };
 
     loadJobsWithCache();
-    const interval = setInterval(loadJobsWithCache, CACHE_EXPIRATION_TIME);
-    return () => clearInterval(interval);
+    const cacheRefreshInterval = setInterval(loadJobsWithCache, CACHE_EXPIRATION_TIME);
+    return () => clearInterval(cacheRefreshInterval);
   }, []);
 
   // Handle search
   const handleSearch = (query) => {
-    if (!query.trim()) return;
+    if (!query.trim()) return; // avoid empty search
 
     const cachedSearch = localStorage.getItem(`search_${query}`);
-    const cacheTimestamp = localStorage.getItem(`searchTimestamp_${query}`);
+    const cacheTimestamp = parseInt(localStorage.getItem(`searchTimestamp_${query}`), 10);
     const isCacheValid =
-      cachedSearch &&
-      cacheTimestamp &&
-      Date.now() - parseInt(cacheTimestamp, 10) < CACHE_EXPIRATION_TIME;
+      cachedSearch && cacheTimestamp && Date.now() - cacheTimestamp < CACHE_EXPIRATION_TIME;
 
     if (isCacheValid) {
       setSearchResults(JSON.parse(cachedSearch));
     } else {
-      // Ensure jobs data is loaded before searching
-      const results = (jobs.length ? jobs : jobsData).filter(
-        (job) =>
-          job.jobRole.toLowerCase().includes(query.toLowerCase()) ||
-          job.companyName.toLowerCase().includes(query.toLowerCase()) ||
-          job.experience.toLowerCase().includes(query.toLowerCase())
+      const lowerQuery = query.toLowerCase();
+      const results = jobs.filter((job) =>
+        job?.jobRole?.toLowerCase().includes(lowerQuery) ||
+        job?.companyName?.toLowerCase().includes(lowerQuery) ||
+        job?.experience?.toLowerCase().includes(lowerQuery) ||
+        job?.location?.toLowerCase().includes(lowerQuery) // added location search
       );
 
       setSearchResults(results);
-
       localStorage.setItem(`search_${query}`, JSON.stringify(results));
       localStorage.setItem(`searchTimestamp_${query}`, Date.now().toString());
     }
@@ -105,7 +100,7 @@ const App = () => {
         <Route path="/all-abroad-jobs" element={<AllAbroadJobs jobs={jobs} />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/sitemap.xml" element={<SiteMap />} />
+        <Route path="/sitemap.xml" element={<SiteMap />} /> 
       </Routes>
       <Footer />
     </>
