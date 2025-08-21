@@ -31,7 +31,7 @@ const Header = ({ onSearch }) => {
       {/* Logo */}
       <div className="logo">
         <Link to="/">
-          <img src="/images/logo.png" alt="Reestart Logo" />
+          <img src="/images/logo.png" alt="Reestarts" />
         </Link>
       </div>
 
@@ -75,3 +75,4 @@ const Header = ({ onSearch }) => {
 };
 
 export default Header;
+
