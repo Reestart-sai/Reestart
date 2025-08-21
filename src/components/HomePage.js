@@ -28,11 +28,57 @@ const HomePage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Reestarts - Home Page</title>
-        <meta name="description" content="Discover the latest job listings on Reestarts, including private jobs, government jobs, internships, and abroad opportunities." />
-        <meta name="keywords" content="Reestarts, reestarts, career guidance, job postings, fresher jobs, study materials, interview preparation, career development, latest job updates, tech news, social media for career, job search, professional growth, personal branding" />
-      </Helmet>
+     <Helmet>
+  {/* 🔹 Title & Meta */}
+  <title>Reestarts - Latest Government & Private Jobs, Internships & Abroad Careers</title>
+  <meta 
+    name="description" 
+    content="Find the latest Government Jobs, Private Jobs, Abroad Careers, and Internships on Reestarts. Career guidance, job postings, and study resources for freshers & professionals." 
+  />
+  <meta 
+    name="keywords" 
+    content="Government Jobs, Private Jobs, Abroad Jobs, Internships, Job Portal, Career Guidance, Reestarts Jobs, Latest Job Updates, reestarts, restarts,Reestarts" 
+  />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.reestarts.in" />
+
+  {/* 🔹 Open Graph (for Facebook, LinkedIn, WhatsApp previews) */}
+  <meta property="og:site_name" content="Reestarts" />
+  <meta property="og:title" content="Reestarts - Latest Government & Private Jobs" />
+  <meta 
+    property="og:description" 
+    content="Explore Government Jobs, Private Jobs, Abroad Jobs & Internships with Reestarts. Stay updated with career opportunities and career growth tips." 
+  />
+  <meta property="og:url" content="https://www.reestarts.in" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://www.reestarts.in/images/logo.png" />
+
+  {/* 🔹 Twitter Card (for X / Twitter shares) */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Reestarts - Government & Private Jobs, Internships & Careers" />
+  <meta 
+    name="twitter:description" 
+    content="Find the latest jobs on Reestarts – Government, Private, Abroad, and Internships. Career guidance for freshers & professionals." 
+  />
+  <meta name="twitter:image" content="https://www.reestarts.in/images/logo.png" />
+  <meta name="twitter:site" content="@_Reestarts" />
+
+  {/* 🔹 Organization Schema (helps with Google Rich Snippets) */}
+  <script type="application/ld+json">{`
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Reestarts",
+    "url": "https://www.reestarts.in",
+    "logo": "https://www.reestarts.in/images/logo.png",
+    "sameAs": [
+      "https://x.com/_Reestarts",
+      "https://www.instagram.com/reestarts"
+    ]
+  }
+  `}</script>
+</Helmet>
+
       <div className="homepage">
         
         <TrendingJobs />
@@ -46,3 +92,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
